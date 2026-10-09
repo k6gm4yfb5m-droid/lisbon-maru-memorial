@@ -50,7 +50,7 @@ GitHub Pages 只托管静态文件，无法单独运行现有留言、上传、�
 | Variable | `MEMORIAL_DOMAIN` | 如 `memorial.your-domain.com`，不带协议或路径；留空使用测试域名 |
 | Variable | `CLOUDFLARE_DEPLOY_ENABLED` | 准备完成后设为 `true`，才会启用线上部署 |
 
-如使用 GitHub `production` Environment 的 Secrets/Variables，也可以把部署值放在该 Environment 中。CI 检查不需要线上密钥。
+`CLOUDFLARE_DEPLOY_ENABLED` 必须配置为仓库级 Variable，因为工作流在启动部署任务前读取它。其余部署值也可以放在 GitHub `production` Environment 的 Secrets/Variables 中。CI 检查不需要线上密钥。
 
 5. 在 Actions 中运行 `Check and deploy independent website`，确认 `check` 和 `deploy` 都成功。真实访问链接取自成功的 Cloudflare 部署结果，不能根据仓库名猜测。
 6. 打开新网址，验证公开访问及功能；完成地区实测后再将它作为正式入口。
