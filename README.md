@@ -81,4 +81,6 @@ Node 22.13+，npm。
 救援地点图以 `app/rescue-globe.tsx` 的动态地球作为入口，使用原有本地Natural Earth底图，三处发光点复用两岛概位与沉船坐标。在位置图进入视口后旋转6.5秒，再先朝向东极岛、以对数尺度放大3.4秒，随后用0.6秒透明过渡进入原救援地图。最终正射投影尺度为300000/cos(30.216°)，使三处地球标记与墨卡托局部图对应；手机选中地点的横向滚动量同时纳入地球相机。保留两岛真实轮廓、图例、连线、说明等交互。可通过地球、发光点、图例或进入按钮主动进入，返回地球后停留观看；支持暂停/继续、键盘、焦点衔接、五语，离开视口或隐藏页面停止动画，减少动态效果模式以点击直接进入替代自动放大。
 # GitHub 与独立部署
 
-代码仓库：[k6gm4yfb5m-droid/lisbon-maru-memorial](https://github.com/k6gm4yfb5m-droid/lisbon-maru-memorial)。完整步骤、自动部署配置、数据迁移和地区访问说明见 [部署指南](docs/GITHUB-DEPLOYMENT.zh-CN.md)。新托管尚需用户自己的账号/域名配置；原公开网址仍可使用。
+公开网站：[Cloudflare 独立站](https://lisbon-maru-memorial.kwnwh7pg2p.workers.dev/?lang=zh)。[原 OpenAI 网站](https://lisbon-maru-remembrance-lizh.gsmgwt7ywg.chatgpt.site/)继续保留，两站访客数据独立保存。
+
+公开代码仓库：[k6gm4yfb5m-droid/lisbon-maru-memorial](https://github.com/k6gm4yfb5m-droid/lisbon-maru-memorial)。Codex 修改验证并提交 `main` 后，Cloudflare Git 集成自动更新独立站；GitHub Actions 负责验证，其部署任务保持关闭。原站仍使用原 Sites 发布流程。配置、数据迁移与地区访问验证范围见 [部署指南](docs/GITHUB-DEPLOYMENT.zh-CN.md)。大陆、香港和澳门尚未完成当地网络实测。
