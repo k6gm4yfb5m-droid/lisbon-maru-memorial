@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1790709735812,
+      "tag": "0000_daily_the_spike",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791462589772,
+      "tag": "0001_furry_vivisector",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791485523177,
+      "tag": "0002_hesitant_scarlet_witch",
+      "breakpoints": true
+    }
+  ]
+}

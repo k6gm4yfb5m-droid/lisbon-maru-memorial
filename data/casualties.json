@@ -1,0 +1,5721 @@
+[
+  {
+    "id": "lm-0001",
+    "name": "Abel, Clifford",
+    "details": "Alan Sick Berth Att.",
+    "sourceRow": 2,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0002",
+    "name": "Adam, George",
+    "details": "Currie",
+    "sourceRow": 3,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0003",
+    "name": "Adams, William",
+    "details": "",
+    "sourceRow": 4,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0004",
+    "name": "Adamson, Charles",
+    "details": "V. BOMS 798881 Royal Artillery",
+    "sourceRow": 5,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0005",
+    "name": "Aikman, Ronald",
+    "details": "Edward Lance Corp. 3053623 Royal Scots",
+    "sourceRow": 6,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0006",
+    "name": "Alchin, Milton",
+    "details": "Carl BSM 1424392 Hong Kong & Singapore Royal Artillery",
+    "sourceRow": 7,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0007",
+    "name": "Alexander, Adam",
+    "details": "Glen Lance Corp. 6201459 Middlesex",
+    "sourceRow": 8,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0008",
+    "name": "Allan, Hugh",
+    "details": "Hamilton PC Royal Naval Dockyard Police",
+    "sourceRow": 9,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0009",
+    "name": "Allen, William",
+    "details": "Richard Marine PLY/X 2196 Royal Marines",
+    "sourceRow": 10,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0010",
+    "name": "Allanson, Kenneth",
+    "details": "E. Private 3063607 Boyal Scots",
+    "sourceRow": 11,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0011",
+    "name": "Allin, Bernard",
+    "details": "Lester Signalman 2589561 Royal Corpe of Signals",
+    "sourceRow": 12,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0012",
+    "name": "Allison, Patrick",
+    "details": "Joseph Private 3055948 Royal Scots",
+    "sourceRow": 13,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0013",
+    "name": "Allport, Albert",
+    "details": "Edward BSM 1064171 Hong Kong & Singapore Royal Artillery",
+    "sourceRow": 14,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0014",
+    "name": "Ambrose, Fred",
+    "details": "Corporal PLY/22402 Royal Marines",
+    "sourceRow": 15,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0015",
+    "name": "Anderson, John",
+    "details": "Lance Bdr. 7013283 Royal Artillery",
+    "sourceRow": 16,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0016",
+    "name": "Anderson, John",
+    "details": "McLeod Private 3055011 Royal Scots",
+    "sourceRow": 17,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0017",
+    "name": "Anderson, Victor",
+    "details": "Emanuel Bombardier 7076955 Royal Artillery",
+    "sourceRow": 18,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0018",
+    "name": "Andrew, Matthew",
+    "details": "Beaton Private 3055215 Royal Scots",
+    "sourceRow": 19,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0019",
+    "name": "Andrews, Leslie",
+    "details": "William Private 6210653 Middlesex",
+    "sourceRow": 20,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0020",
+    "name": "Archer, Albert",
+    "details": "William Stoker 1st Class C/KX 105774 Royal Navy",
+    "sourceRow": 21,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0021",
+    "name": "Archibald, Robert",
+    "details": "Miller Private",
+    "sourceRow": 22,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0022",
+    "name": "Archibald, William",
+    "details": "Private 3063611 Royal Scots",
+    "sourceRow": 23,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0023",
+    "name": "Arnold, Edward",
+    "details": "Gunner 8272469 Royal Artillery",
+    "sourceRow": 24,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0024",
+    "name": "Ashford, Ronald",
+    "details": "Edward Private 3054433 Royal Scots",
+    "sourceRow": 25,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0025",
+    "name": "Astill, Arthur",
+    "details": "Gunner 845230 Royal Artillery",
+    "sourceRow": 26,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0026",
+    "name": "Atkinson, Edwin",
+    "details": "Lance Corp. 2325182 Royal Corps of signals",
+    "sourceRow": 27,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0027",
+    "name": "Atkinson, Robert",
+    "details": "Chief P.O. D/J 108082 Royal Navy",
+    "sourceRow": 28,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0028",
+    "name": "Attwell, Gerald",
+    "details": "Able Seaman D/SSX 20157 Royal Navy",
+    "sourceRow": 29,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0029",
+    "name": "Audsley, Harold",
+    "details": "Sapper 1991557 Royal Engineers",
+    "sourceRow": 30,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0030",
+    "name": "Auld, Alexander",
+    "details": "Private 3052678 Royal Scots",
+    "sourceRow": 31,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0031",
+    "name": "Austin, William",
+    "details": "Bombardier 850939 Hong Kong & Singapore Royal Artillery",
+    "sourceRow": 32,
+    "letter": "A"
+  },
+  {
+    "id": "lm-0032",
+    "name": "Bache, Herbert",
+    "details": "Henry Private 2570708 Royal Army Medical Corps",
+    "sourceRow": 33,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0033",
+    "name": "Backhurst, Alfred",
+    "details": "Leonard - Private 6212951 Middlesex",
+    "sourceRow": 34,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0034",
+    "name": "Bader, Bernard",
+    "details": "John Sergeant 847343 Hong Kong & Singapore Royal Artillery",
+    "sourceRow": 35,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0035",
+    "name": "Bailey, Albert",
+    "details": "William H. Gunner 853083 Royal Artillery",
+    "sourceRow": 36,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0036",
+    "name": "Bailey, Reginald",
+    "details": "Kenneth L. Sick Berth Att. C/MX 52582- Royal Navy",
+    "sourceRow": 37,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0037",
+    "name": "Bain, George",
+    "details": "Harper Lance Corp. 3055325 Royal Scots",
+    "sourceRow": 38,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0038",
+    "name": "Baker, George",
+    "details": "Sidney Private 6202719 Middlesex",
+    "sourceRow": 39,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0039",
+    "name": "Baker, Jack",
+    "details": "Eng. Rm. Art, 3P/MX 48263 Royal Navy",
+    "sourceRow": 40,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0040",
+    "name": "Baker, John",
+    "details": "James Private 6208382 Middlesex",
+    "sourceRow": 41,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0041",
+    "name": "Baker, Thomas",
+    "details": "Ernest Private 6202324 Middlesex",
+    "sourceRow": 42,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0042",
+    "name": "Balaam, Arthur",
+    "details": "John Gunner 872506 Royal Artillery",
+    "sourceRow": 43,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0043",
+    "name": "Baldwin, William",
+    "details": "Charles Gunner 6459432 Royal Artillery.",
+    "sourceRow": 44,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0044",
+    "name": "Banks, Raymond",
+    "details": "Lance Bdr. 849622 Royal Artillery",
+    "sourceRow": 45,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0045",
+    "name": "Barbour, James",
+    "details": "Munro Lance Corp. 1872348 Royal Engineers",
+    "sourceRow": 46,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0046",
+    "name": "Barlow, William",
+    "details": "Arthur BSM 816130 Royal Artillery",
+    "sourceRow": 47,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0047",
+    "name": "Barnes, Cyril",
+    "details": "Gunner 1426883 Royal Artillery",
+    "sourceRow": 48,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0048",
+    "name": "Barnes, John",
+    "details": "Gunner 850757 Royal Artillery",
+    "sourceRow": 49,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0049",
+    "name": "Barnes, John",
+    "details": "Private 3054424 Royal Scots",
+    "sourceRow": 50,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0050",
+    "name": "Barnes, Walter",
+    "details": "Private 6201248 Middlesex",
+    "sourceRow": 51,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0051",
+    "name": "Barratt, Walter",
+    "details": "Arthur Private 6213453 Middlesex",
+    "sourceRow": 52,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0052",
+    "name": "Barrett, John",
+    "details": "Charles Private 6203704 Middlesex",
+    "sourceRow": 53,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0053",
+    "name": "Baskerville, Albert",
+    "details": "T. BSM 1057504 Royal Artillery",
+    "sourceRow": 54,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0054",
+    "name": "Bath, Ronald",
+    "details": "Jack Private 6202182 Middlesex",
+    "sourceRow": 55,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0055",
+    "name": "Baxter, James",
+    "details": "Philip Gunner 860125 Royal Artillery",
+    "sourceRow": 56,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0056",
+    "name": "Beaton, James",
+    "details": "Thom Gunner 862199 Royal Artillery",
+    "sourceRow": 57,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0057",
+    "name": "Bedford, George",
+    "details": "Corporal 2323921 Royal Corps of Signals",
+    "sourceRow": 58,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0058",
+    "name": "Beesley, Norman",
+    "details": "Sapper 2131054 Royal Engineers",
+    "sourceRow": 59,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0059",
+    "name": "Bell, David",
+    "details": "Bowie Private 3063614 Royal Scots",
+    "sourceRow": 60,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0060",
+    "name": "Bennett, John",
+    "details": "Lance Corp. 6203921 Middlesex",
+    "sourceRow": 61,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0061",
+    "name": "Bennett, Leonard",
+    "details": "Charlen Corporal 5614598 Middlesex",
+    "sourceRow": 62,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0062",
+    "name": "Bennison, William",
+    "details": "Gunner 1722934 Royal Artillery",
+    "sourceRow": 63,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0063",
+    "name": "Benson, Joseph",
+    "details": "Hugh L. Supply Ass. D/MX 102740 Royal Navy",
+    "sourceRow": 64,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0064",
+    "name": "Berry, Ralph",
+    "details": "Master Gunner 1061660 Royal Artillery",
+    "sourceRow": 65,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0065",
+    "name": "Berry. Thomas Malcolm Private 3054386 Royal Scots",
+    "details": "",
+    "sourceRow": 66,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0066",
+    "name": "Best, Harold",
+    "details": "Ernest Able Seaman D/JX 169805 Royal Navy",
+    "sourceRow": 67,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0067",
+    "name": "Bevis, Herbert",
+    "details": "Thomas Chief E.R.A. F/M 22609 Royal Navy",
+    "sourceRow": 68,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0068",
+    "name": "Bickmore, Ernest",
+    "details": "Alfred Able Seaman C/JX 174010 Royal Navy",
+    "sourceRow": 69,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0069",
+    "name": "Biggs, Arthur",
+    "details": "Leonard W.O. Minewatcher - Hong Kong Royal Naval Volunteer Reserve",
+    "sourceRow": 70,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0070",
+    "name": "Bilton, Arthur",
+    "details": "Writer D/MX 66814 Royal Navy",
+    "sourceRow": 71,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0071",
+    "name": "Birch. Arthur Edward Leading Seaman D/SSX: 22726 Royal Navy",
+    "details": "",
+    "sourceRow": 72,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0072",
+    "name": "Black, Andrew",
+    "details": "Christi Private 3054080 Royal Scots",
+    "sourceRow": 73,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0073",
+    "name": "Black, George",
+    "details": "Gunner 3049404 Royal Artillery",
+    "sourceRow": 74,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0074",
+    "name": "Blackman, Albert",
+    "details": "Lionel Sergeant 1869539 Royal Engineers",
+    "sourceRow": 75,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0075",
+    "name": "Bliss, David",
+    "details": "Ken Able Seaman D/J 53499 Royal Navy",
+    "sourceRow": 76,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0076",
+    "name": "Boag. John Law Sapper 1896309 Royal Engineers",
+    "details": "",
+    "sourceRow": 77,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0077",
+    "name": "Bond, James",
+    "details": "William CQMS 6196027 Middlesex",
+    "sourceRow": 78,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0078",
+    "name": "Bond, William",
+    "details": "Horace L. Sick Berth Att. D/M 36415. Royal Navy",
+    "sourceRow": 79,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0079",
+    "name": "Bonfield, Frank",
+    "details": "Master at Arms D/M 39742 Royal Navy",
+    "sourceRow": 80,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0080",
+    "name": "Boothroyd, George",
+    "details": "H. Telegraphist P/SSX 31937 - Royal Navy",
+    "sourceRow": 81,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0081",
+    "name": "Bowditch, Alfred",
+    "details": "Edward - Gunner 1073423 Royal Artillery",
+    "sourceRow": 82,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0082",
+    "name": "Bowey, George",
+    "details": "Henry Private 6201825 Middlesex.",
+    "sourceRow": 83,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0083",
+    "name": "Boyce, Samuel",
+    "details": "John Lance Bdr. 1063039 Royal Artillery",
+    "sourceRow": 84,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0084",
+    "name": "Boyes, William",
+    "details": "James L. A. P.O. Sick Berth D/M 36394 Royal Navy",
+    "sourceRow": 85,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0085",
+    "name": "Boyle, Hugh",
+    "details": "Chief E.R.A. D/M 26910 Royal Navy",
+    "sourceRow": 86,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0086",
+    "name": "Boyle, Thomas",
+    "details": "John Private 3053138 Royal Scots",
+    "sourceRow": 87,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0087",
+    "name": "Boyne, Martin",
+    "details": "William Gunner 1426774 Royal Artillery",
+    "sourceRow": 88,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0088",
+    "name": "Bradford, Alfred",
+    "details": "Thomas Bandsman 6201856 - Middles合会",
+    "sourceRow": 89,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0089",
+    "name": "Bremner, William",
+    "details": "Gunner 1725305 Royal Artillery",
+    "sourceRow": 90,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0090",
+    "name": "Brennan, Michael",
+    "details": "Corporal 1871620 Royal Engineers",
+    "sourceRow": 91,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0091",
+    "name": "Bright, Arthur",
+    "details": "William Leading Stoker P/K 20823 Royal Navy",
+    "sourceRow": 92,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0092",
+    "name": "Brockley, Wilfred",
+    "details": "Private 7538255 Royal Army Dental Corps",
+    "sourceRow": 93,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0093",
+    "name": "Brooks, Charles",
+    "details": "Frederick Master Gunner -1410996 Royal Artillery",
+    "sourceRow": 94,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0094",
+    "name": "Brooks, Sidney",
+    "details": "Gunner 856993 Royal Artillery",
+    "sourceRow": 95,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0095",
+    "name": "Brotherston, Andrew",
+    "details": "Sergeant Hong Kong Dockyard Defence Corpa",
+    "sourceRow": 96,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0096",
+    "name": "Brown, David",
+    "details": "McNeilace Able Seaman D/JX 194203 Royal Navy",
+    "sourceRow": 97,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0097",
+    "name": "Brown, Joseph",
+    "details": "Peter Sapper 1874475 Royal Engineers",
+    "sourceRow": 98,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0098",
+    "name": "Bryant, Joseph",
+    "details": "Private 3053735 Royal Scots",
+    "sourceRow": 99,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0099",
+    "name": "Bryant, Willie",
+    "details": "Private 6208393 Middlesex",
+    "sourceRow": 100,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0100",
+    "name": "Brydie, Cecil",
+    "details": "C. Shipwright D/MX54814 Royal Navy",
+    "sourceRow": 101,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0101",
+    "name": "Bull, Walter",
+    "details": "Gunner 4613293 Royal Artillery",
+    "sourceRow": 102,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0102",
+    "name": "Burdett, Kenneth",
+    "details": "Private 6196305 Middlesex",
+    "sourceRow": 103,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0103",
+    "name": "Burgess, Frederick",
+    "details": "Gunner 3528355 Royal Artillery",
+    "sourceRow": 104,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0104",
+    "name": "Burnell, Robert",
+    "details": "James Lance Sergeant 1501972 Hong Kong  Singapore Royal Artillery",
+    "sourceRow": 105,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0105",
+    "name": "Burnett, Alexander",
+    "details": "B. Private 3052803 Royal Scots",
+    "sourceRow": 106,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0106",
+    "name": "Burnett, Peter",
+    "details": "Lance Corp. 3054976 Royal Scots",
+    "sourceRow": 107,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0107",
+    "name": "Burnley, Fred",
+    "details": "Bombardier 1424508 Royal Artillery",
+    "sourceRow": 108,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0108",
+    "name": "Burns, Thomas",
+    "details": "McDermid Lance Corp. 3055018 Royal Scots",
+    "sourceRow": 109,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0109",
+    "name": "Burrows, Edgar",
+    "details": "George Stoker P.O. C/KX75164 Royal Navy",
+    "sourceRow": 110,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0110",
+    "name": "Burrows, Frank",
+    "details": "Lance bdr. 851337 Royal Artillery",
+    "sourceRow": 111,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0111",
+    "name": "Burrows, Vernon",
+    "details": "Howard Gunner 872712 Royal Artillery",
+    "sourceRow": 112,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0112",
+    "name": "Butler, Thomas",
+    "details": "Gunner 872746 Royal Artillery",
+    "sourceRow": 113,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0113",
+    "name": "Butler, Walter",
+    "details": "William Gunner 800932 Royal Artillery",
+    "sourceRow": 114,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0114",
+    "name": "Cadle, Edward",
+    "details": "Terence Gunner 1492325 Royal Artillery",
+    "sourceRow": 115,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0115",
+    "name": "Calvert, Hans",
+    "details": "Signalman D/JX 229549 Royal Navy",
+    "sourceRow": 116,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0116",
+    "name": "Campbell, Clifford",
+    "details": "H. H. Private 6213470 Middlesex",
+    "sourceRow": 117,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0117",
+    "name": "Campbell, James",
+    "details": "Private 3055253 Royal Scots",
+    "sourceRow": 118,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0118",
+    "name": "Campbell, William",
+    "details": "Sick Berth Att. D/MX 80127 Royal Navy",
+    "sourceRow": 119,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0119",
+    "name": "Campbell, William",
+    "details": "Lance Sergeant LSA/68 Hong Kong Police Force.",
+    "sourceRow": 120,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0120",
+    "name": "Carley, John",
+    "details": "BSM 1064034 Royal Artillery",
+    "sourceRow": 121,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0121",
+    "name": "Carpenter, Maurice",
+    "details": "David Staff Sergeant 1869997 Royal Engineers",
+    "sourceRow": 122,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0122",
+    "name": "Carrell, George",
+    "details": "Thomas Private 6200773 Middlesex",
+    "sourceRow": 123,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0123",
+    "name": "Carrington, William",
+    "details": "Private 3055976 Royal Scots",
+    "sourceRow": 124,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0124",
+    "name": "Caslake, Edwin",
+    "details": "Reginald Corporal 6198731 Middlesex",
+    "sourceRow": 125,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0125",
+    "name": "Cassin, Francis",
+    "details": "Able Seaman D/JX 153144 Royal Navy",
+    "sourceRow": 126,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0126",
+    "name": "Chalgrave, Frank",
+    "details": "Private 6205010 Middlesex",
+    "sourceRow": 127,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0127",
+    "name": "Chalmers, Alexander",
+    "details": "Private 2880057 Royal Scots",
+    "sourceRow": 128,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0128",
+    "name": "Chapman, Douglas",
+    "details": "V. Private 6210065 Middlesex",
+    "sourceRow": 129,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0129",
+    "name": "Charles, Douglas",
+    "details": "Amos Corporal 6201537 Middlesex",
+    "sourceRow": 130,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0130",
+    "name": "Charles, Sidney",
+    "details": "Sergeant 1862399 Royal Engineers",
+    "sourceRow": 131,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0131",
+    "name": "Charlton, Rennison",
+    "details": "Private 3054558 Royal Scots",
+    "sourceRow": 132,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0132",
+    "name": "Cheek, George",
+    "details": "Henry Able Seaman P/J 30260 WRNH Royal Navy",
+    "sourceRow": 133,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0133",
+    "name": "Chick, Henry",
+    "details": "Private 6207041 Middlesex",
+    "sourceRow": 134,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0134",
+    "name": "Chilcraft, Robert",
+    "details": "Albert Able Seaman C/JX 198043 Royal Navy",
+    "sourceRow": 135,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0135",
+    "name": "Childs, Thomas",
+    "details": "Bernard Gunner 868767 Royal Artillery",
+    "sourceRow": 136,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0136",
+    "name": "Chown, George",
+    "details": "Henry Gunner 1712333 Royal Artillery",
+    "sourceRow": 137,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0137",
+    "name": "Christian, Charles",
+    "details": "Harold Gunner 856067 Royal Artillery",
+    "sourceRow": 138,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0138",
+    "name": "Clarke, Wilfred",
+    "details": "Allan L. Telegraphist D/JX 138843 Royal Navy",
+    "sourceRow": 139,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0139",
+    "name": "Clayton, Samuel",
+    "details": "Gunner 868235 Hong Kong & Singapore Royal Artillery",
+    "sourceRow": 140,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0140",
+    "name": "Cleggett. Albert Ernest Signalman- 2323569 Royal Corps of Signals",
+    "details": "",
+    "sourceRow": 141,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0141",
+    "name": "Clifford, George",
+    "details": "Frederick Private 6201165 Middlesex",
+    "sourceRow": 142,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0142",
+    "name": "Clogg. George Alfred Gunner 1426788 Royal Artillery",
+    "details": "",
+    "sourceRow": 143,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0143",
+    "name": "Cockburn, Richard",
+    "details": "Gunner 847145 Royal Artillery",
+    "sourceRow": 144,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0144",
+    "name": "Cole, Frederick",
+    "details": "William Gunner 1438817 Royal Artillery",
+    "sourceRow": 145,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0145",
+    "name": "Coleman, Patrick",
+    "details": "Private 3053270 Royal Scots",
+    "sourceRow": 146,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0146",
+    "name": "Coles, Joseph",
+    "details": "William R. Sergeant - Hong Kong Dockyard Defence Corps",
+    "sourceRow": 147,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0147",
+    "name": "Colthorpe, Wilfred",
+    "details": "Lance Bår. 860371 Royal Artillery",
+    "sourceRow": 148,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0148",
+    "name": "Combe, Alexander",
+    "details": "Hunter Corporal 2979624 Royal Scots",
+    "sourceRow": 149,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0149",
+    "name": "Commerford, John",
+    "details": "Lance Corp. 6010413 Middlesex",
+    "sourceRow": 150,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0150",
+    "name": "Coneghan, James",
+    "details": "Private 3054426 Royal Scots",
+    "sourceRow": 151,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0151",
+    "name": "Connolly. John Patrick G. - Private 6203260- Middlesex",
+    "details": "",
+    "sourceRow": 152,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0152",
+    "name": "Cook, Henry",
+    "details": "Private 3050398 Royal Scots",
+    "sourceRow": 153,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0153",
+    "name": "Cook, James",
+    "details": "Lance Corp. 3054069 Royal Scots",
+    "sourceRow": 154,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0154",
+    "name": "Cook, Peter",
+    "details": "Harold Signalman 2324228 Royal Corps of Signals",
+    "sourceRow": 155,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0155",
+    "name": "Cooke, James",
+    "details": "Leslie Cyril Corporal 1870684 Royal Engineers",
+    "sourceRow": 156,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0156",
+    "name": "Cooke, John",
+    "details": "Patrick Private 6202967 Middlesex.",
+    "sourceRow": 157,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0157",
+    "name": "Cooke, Leonard",
+    "details": "Gunner 856036 Royal Artillery",
+    "sourceRow": 158,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0158",
+    "name": "Cooper, Albert",
+    "details": "Edward Lance Corp. 6201935 Middlesex",
+    "sourceRow": 159,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0159",
+    "name": "Cooper, George",
+    "details": "William Corporal 1871659 Royal Engineers",
+    "sourceRow": 160,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0160",
+    "name": "Copping, Henry",
+    "details": "George Private 6202987 Middlesex",
+    "sourceRow": 161,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0161",
+    "name": "Cornwall, Andrew",
+    "details": "Private 3055714 Royal Scots",
+    "sourceRow": 162,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0162",
+    "name": "Couch, Henry",
+    "details": "Gunner 1426655 Royal Artillery",
+    "sourceRow": 163,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0163",
+    "name": "Cousins, George",
+    "details": "John F. BSM 1421493 Royal Artillery",
+    "sourceRow": 164,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0164",
+    "name": "Crabtree, Allan",
+    "details": "Signalman D/SSX 30457 Royal Navy",
+    "sourceRow": 165,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0165",
+    "name": "Craddock, Thomas",
+    "details": "G. Gunner 1492336 Royal Artillery",
+    "sourceRow": 166,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0166",
+    "name": "Crangle, John",
+    "details": "Raphael Able Seaman P/UD/X 1399 Royal Navy",
+    "sourceRow": 167,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0167",
+    "name": "Crawley, Frederick",
+    "details": "W. Signalman 2330255 Royal Corps of Signals",
+    "sourceRow": 168,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0168",
+    "name": "Creed, Frederick",
+    "details": "William Gunner 853685 Royal Artillery",
+    "sourceRow": 169,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0169",
+    "name": "Crichton, George",
+    "details": "Private 3054865 Royal Scots",
+    "sourceRow": 170,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0170",
+    "name": "Crittenden, Albert",
+    "details": "Stanley Sapper 1871588 Royal Engineers",
+    "sourceRow": 171,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0171",
+    "name": "Cross, William",
+    "details": "Albert Lance Bdr. 847267 Royal Artillery",
+    "sourceRow": 172,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0172",
+    "name": "Crowley, Patrick",
+    "details": "Joseph Sergeant 6198993 Middlesex",
+    "sourceRow": 173,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0173",
+    "name": "Cuell, William",
+    "details": "Tom ROMS 1416464 Royal Artillery",
+    "sourceRow": 174,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0174",
+    "name": "Culpeck, Francis",
+    "details": "Henry Lance Corp. 6200956 Middlesex",
+    "sourceRow": 175,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0175",
+    "name": "Curtis, Llewellyn",
+    "details": "Gunner 863047 Royal Artillery",
+    "sourceRow": 176,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0176",
+    "name": "Dainty, George",
+    "details": "Henry Gunner 5109685 Royal Artillery",
+    "sourceRow": 177,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0177",
+    "name": "Dair, Robert",
+    "details": "Francis Sergeant 1409461 Hong Kong & Singapore Royal Artillery",
+    "sourceRow": 178,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0178",
+    "name": "Daly, Joseph",
+    "details": "Hunter Private 3055918 Royal Scots",
+    "sourceRow": 179,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0179",
+    "name": "Dannan, Stephen",
+    "details": "John Lance Corp. 2323003 Royal Corps of Signals",
+    "sourceRow": 180,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0180",
+    "name": "Davis, Donald",
+    "details": "Edward Staff Sergeant 1866908 Royal Engineers",
+    "sourceRow": 181,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0181",
+    "name": "Davin, Harold",
+    "details": "Raymond - Sapper 2125441 Royal Engineers",
+    "sourceRow": 182,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0182",
+    "name": "Davis, John",
+    "details": "Peter Richard Frivate 6213434 Middlesex",
+    "sourceRow": 183,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0183",
+    "name": "Davis, Joseph",
+    "details": "William Gunner 847243 Royal Artillery",
+    "sourceRow": 184,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0184",
+    "name": "Dawes. James Lance Sergeant 6200365 Middlesex",
+    "details": "",
+    "sourceRow": 185,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0185",
+    "name": "Dawson, George",
+    "details": "Staff Sergeant 1869525 Royal Engineers",
+    "sourceRow": 186,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0186",
+    "name": "Day, Harry",
+    "details": "Clark of Morks 1862866 Royal Engineers",
+    "sourceRow": 187,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0187",
+    "name": "Delderfield, George",
+    "details": "A. Lieutenant  132905 Royal Artillery",
+    "sourceRow": 188,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0188",
+    "name": "Denyer, George",
+    "details": "Staff Sergeant 1869033 Royal Engineers",
+    "sourceRow": 189,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0189",
+    "name": "Dickson, George",
+    "details": "Jackson Private 3055960 Royal Scots",
+    "sourceRow": 190,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0190",
+    "name": "Dixon, Norman",
+    "details": "Sergeant 847485 Royal Artillery",
+    "sourceRow": 191,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0191",
+    "name": "Doane, Ernest",
+    "details": "Gunner 842328 Royal Artillery",
+    "sourceRow": 192,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0192",
+    "name": "Dochard, John",
+    "details": "Gunner 853687 Royal Artillery",
+    "sourceRow": 193,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0193",
+    "name": "Dodson, Charles",
+    "details": "Henry Yeoman of Sig. C/230594 Royal Navy",
+    "sourceRow": 194,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0194",
+    "name": "Donnelly, John",
+    "details": "Lance Corp. 3054473 Royal Scots",
+    "sourceRow": 195,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0195",
+    "name": "Dooley, Clifford",
+    "details": "Vincent Lance Bdr. 872637 Royal Artillery",
+    "sourceRow": 196,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0196",
+    "name": "Drew, Wilfred",
+    "details": "Bombardier 859572 Royal Artillery",
+    "sourceRow": 197,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0197",
+    "name": "Ducker, Neville",
+    "details": "James Elec. Artificer 1 D/MX 59150 Royal Navy",
+    "sourceRow": 198,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0198",
+    "name": "Duddridge, Richard",
+    "details": "Henry PC PC/35 Hong Kong Dockyard Defence Corps",
+    "sourceRow": 199,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0199",
+    "name": "Dunlop, George",
+    "details": "Lance Corp. 3245377- Royal Scots",
+    "sourceRow": 200,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0200",
+    "name": "Durie, George",
+    "details": "Brown Lance Sergeant 3053692 Royal Scots",
+    "sourceRow": 201,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0201",
+    "name": "Durose, Robert",
+    "details": "James Master Gunner 1420122 Royal Artillery",
+    "sourceRow": 202,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0202",
+    "name": "Dutch, Cecil",
+    "details": "Henry F. BSM 1425042 Royal Artillery",
+    "sourceRow": 203,
+    "letter": "D"
+  },
+  {
+    "id": "lm-0203",
+    "name": "Easterbrook, William",
+    "details": "G.R. Boatswain Bosun - Royal Navy",
+    "sourceRow": 204,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0204",
+    "name": "Eaton, George",
+    "details": "Private 6204419 Middlesex",
+    "sourceRow": 205,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0205",
+    "name": "Edge, Leonard",
+    "details": "Lance Corp. 3054374 Royal Scots",
+    "sourceRow": 206,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0206",
+    "name": "Edwards, James",
+    "details": "Thomas Sergeant 850320 Royal Artillery",
+    "sourceRow": 207,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0207",
+    "name": "Edwards, John",
+    "details": "E.D. Able Seaman D/JX 133038 Royal Navy",
+    "sourceRow": 208,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0208",
+    "name": "Egan. John Private 3312481 Royal Scots",
+    "details": "",
+    "sourceRow": 209,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0209",
+    "name": "Ellard, Cecil",
+    "details": "Gunner 847363 Royal Artillery",
+    "sourceRow": 210,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0210",
+    "name": "Elley, Harold",
+    "details": "Edward Sergeant 833465 Royal Artillery",
+    "sourceRow": 211,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0211",
+    "name": "Elliott, Frederick",
+    "details": "A. Private 6208210 Middlesex",
+    "sourceRow": 212,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0212",
+    "name": "Ellis, Ernest",
+    "details": "Private 3054506 Royal Scots",
+    "sourceRow": 213,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0213",
+    "name": "Elms, David",
+    "details": "Kenneth Supply Assistant P/MX 86702 Royal Navy",
+    "sourceRow": 214,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0214",
+    "name": "Embleton, William",
+    "details": "Private 3054566 Royal Scots",
+    "sourceRow": 215,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0215",
+    "name": "Embling, James",
+    "details": "Albert Sapper 1871734 Royal Engineers",
+    "sourceRow": 216,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0216",
+    "name": "Evans, Douglas",
+    "details": "Charles Gunner 1492741 Royal Artillery",
+    "sourceRow": 217,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0217",
+    "name": "Everett, Leslie",
+    "details": "Charles Gunner 880812 Royal Artillery",
+    "sourceRow": 218,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0218",
+    "name": "Eves, John",
+    "details": "Charlen Sergeant 1414266 Royal Artillery",
+    "sourceRow": 219,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0219",
+    "name": "Fage, Charles",
+    "details": "Edward Able Seaman D/JX 168086 Royal Navy",
+    "sourceRow": 220,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0220",
+    "name": "Fairbairn, Alexander",
+    "details": "D. Private 3055928 Royal Scots",
+    "sourceRow": 221,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0221",
+    "name": "Farrie, John",
+    "details": "Reid Writer D/MX 69160 - Royal Navy",
+    "sourceRow": 222,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0222",
+    "name": "Ferrie, Gordon",
+    "details": "Signalman 2326553 Royal Corps of Signals",
+    "sourceRow": 223,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0223",
+    "name": "Fidler, Edward",
+    "details": "Dixon Lance Bdr. 868294 Royal Artillery",
+    "sourceRow": 224,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0224",
+    "name": "Finch, Harold",
+    "details": "P.O. Stoker P/K 61634 Royal Navy",
+    "sourceRow": 225,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0225",
+    "name": "Finch, Richard",
+    "details": "Howell Leading Seaman D/JX 153328 Royal Navy",
+    "sourceRow": 226,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0226",
+    "name": "Findlay, Edward",
+    "details": "Private 2029542 Royal Scots",
+    "sourceRow": 227,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0227",
+    "name": "Fisher, Albert",
+    "details": "Louis Yeoman of Sigs. D/JX 150282 Royal Navy",
+    "sourceRow": 228,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0228",
+    "name": "Fisher, Joseph",
+    "details": "Gunner -856824 Royal Artillery",
+    "sourceRow": 229,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0229",
+    "name": "Fishlock, Ernest",
+    "details": "Alfred J. Lance Sergeant 1867802 Royal Engineers",
+    "sourceRow": 230,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0230",
+    "name": "Flett, Andrew",
+    "details": "Chief Skipper - Royal Navy",
+    "sourceRow": 231,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0231",
+    "name": "Flinter. Edwin Stuart QMS 1020057 Royal Artillery",
+    "details": "",
+    "sourceRow": 232,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0232",
+    "name": "Foley, Andrew",
+    "details": "Private 6203401 Middlesex",
+    "sourceRow": 233,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0233",
+    "name": "Ford, George",
+    "details": "Private 3054539 Royal Scots",
+    "sourceRow": 234,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0234",
+    "name": "Ford, Sidney",
+    "details": "C. Gunner 5488266 Royal Artillery",
+    "sourceRow": 235,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0235",
+    "name": "Forster, Arnold",
+    "details": "William Sapper 1890153 Royal Engineera",
+    "sourceRow": 236,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0236",
+    "name": "Forsyth, James",
+    "details": "L.W. Leading Seaman P/JX 146260 Royal Navy",
+    "sourceRow": 237,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0237",
+    "name": "Foss, John",
+    "details": "George Gunner 872623 Royal Artillery",
+    "sourceRow": 238,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0238",
+    "name": "Foster, Edward",
+    "details": "Sinclair Sapper 1880614 Royal Engineers",
+    "sourceRow": 239,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0239",
+    "name": "Foster, James",
+    "details": "Thomas Private 6208381 Middlesex",
+    "sourceRow": 240,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0240",
+    "name": "Fox, Henry",
+    "details": "Signalman 2325079 Royal Corps of Signals",
+    "sourceRow": 241,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0241",
+    "name": "Francis, Evan",
+    "details": "Charles Leading Seaman D/JX 156024 Royal Navy",
+    "sourceRow": 242,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0242",
+    "name": "Franklin, John",
+    "details": "Wilfred Gunner 845742 Royal Artillery",
+    "sourceRow": 243,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0243",
+    "name": "French, Walter",
+    "details": "Leonard - Private 6201176 Middlesex",
+    "sourceRow": 244,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0244",
+    "name": "Frenchum, Frank",
+    "details": "Ernest Private 6203000 Middlesex",
+    "sourceRow": 245,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0245",
+    "name": "Fry, William",
+    "details": "Francis Sapper 1874912 Royal Engineers",
+    "sourceRow": 246,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0246",
+    "name": "Fudge, John",
+    "details": "Alfred Gunner 1712437 Royal Artillery",
+    "sourceRow": 247,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0247",
+    "name": "Fulcher, Cecil",
+    "details": "Eric Lance Bdr. 842511 Royal Artillery",
+    "sourceRow": 248,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0248",
+    "name": "Fullagar, Albert",
+    "details": "Oliver Gunner 860034 Hong Kong & Singapore Royal Artillery",
+    "sourceRow": 249,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0249",
+    "name": "Fullerton, Thomas",
+    "details": "Private 3053684 Royal Scots",
+    "sourceRow": 250,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0250",
+    "name": "Fyffe, Neil",
+    "details": "Private 3053612 Royal Scots",
+    "sourceRow": 251,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0251",
+    "name": "Gadd, George",
+    "details": "Richard Gunner 2033165 Royal Artillery",
+    "sourceRow": 252,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0252",
+    "name": "Gailey, Leonard",
+    "details": "Henry Gunner 3711645 Royal Artillery",
+    "sourceRow": 253,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0253",
+    "name": "Gale, Edward",
+    "details": "George Signalman 2331384 Royal Corps of Signals",
+    "sourceRow": 254,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0254",
+    "name": "Gale, John",
+    "details": "Frederick T. Private 6202413 Middlesex",
+    "sourceRow": 255,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0255",
+    "name": "Gallagher, Joseph",
+    "details": "Brendin Gunner 847480 Royal Artillery",
+    "sourceRow": 256,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0256",
+    "name": "Gardiner, George",
+    "details": "Private 3054498 Royal Scots",
+    "sourceRow": 257,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0257",
+    "name": "Gardner, Andrew",
+    "details": "Pollock Private 3055001 Royal Scots",
+    "sourceRow": 258,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0258",
+    "name": "Garrett, Arthur",
+    "details": "Thomas Petty Officer P/J 106280 Royal Navy",
+    "sourceRow": 259,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0259",
+    "name": "Garth, Patrick",
+    "details": "Corporal 3055939 Royal Scots",
+    "sourceRow": 260,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0260",
+    "name": "Gates, Edwin",
+    "details": "William Leading Seaman C/J 105411 Royal Navy",
+    "sourceRow": 261,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0261",
+    "name": "Gentry, Frederick",
+    "details": "James Private 6199070 Middlesex",
+    "sourceRow": 262,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0262",
+    "name": "George. Alfred William Lance Sergeant 828506 Royal Artillery",
+    "details": "",
+    "sourceRow": 263,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0263",
+    "name": "Gibson, Frederick",
+    "details": "William Private 6202703 Middlesex",
+    "sourceRow": 264,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0264",
+    "name": "Gibson, Hugh",
+    "details": "Lance Corp. 3053728 Royal Scots",
+    "sourceRow": 265,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0265",
+    "name": "Gibson, Richard",
+    "details": "Lance Corp. 3054008 Royal Scots",
+    "sourceRow": 266,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0266",
+    "name": "Gill, Norman",
+    "details": "Henry Gunner 1426792 Royal Artillery",
+    "sourceRow": 267,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0267",
+    "name": "Glister, Montague",
+    "details": "Henry - Gunner 1712442 Royal Artillery",
+    "sourceRow": 268,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0268",
+    "name": "Glover, Herbert",
+    "details": "Edwin Lance Corp. 6201458 Middlesex",
+    "sourceRow": 269,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0269",
+    "name": "Godfree, Ronald",
+    "details": "Frank Leading Stoker C/KX 88260 Royal Navy",
+    "sourceRow": 270,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0270",
+    "name": "Godfrey, Alfred",
+    "details": "Trevor Lieutenant 147712 Royal Artillery",
+    "sourceRow": 271,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0271",
+    "name": "Godson, Austin",
+    "details": "Kennedy W.0.11 3049334 Royal Scots",
+    "sourceRow": 272,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0272",
+    "name": "Goff, James",
+    "details": "Henry Sapper 1871771 Royal Engineers",
+    "sourceRow": 273,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0273",
+    "name": "Goldie, Charles",
+    "details": "Private 3053767 Royal Scots",
+    "sourceRow": 274,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0274",
+    "name": "Goodman, Albert",
+    "details": "Corporal 6201734 Middlesex",
+    "sourceRow": 275,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0275",
+    "name": "Gordon, Ian",
+    "details": "Francis Lance Corp. 6201482-Middlese",
+    "sourceRow": 276,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0276",
+    "name": "Gormon, James",
+    "details": "Thomas Sergeant 2319515 Royal Corps of Signels",
+    "sourceRow": 277,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0277",
+    "name": "Goudie, Harold",
+    "details": "Signalman 2353843 Royal Corps of Signals",
+    "sourceRow": 278,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0278",
+    "name": "Gould, Henry",
+    "details": "Y.J. RSM 5720230 Royal Artillery",
+    "sourceRow": 279,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0279",
+    "name": "Gourlay, lan",
+    "details": "Douglas Sapper 1853785 Royal Engineers",
+    "sourceRow": 280,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0280",
+    "name": "Gracey, Peter",
+    "details": "Douglas Captain 64552 Royal Corps of Signals",
+    "sourceRow": 281,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0281",
+    "name": "Graham, Duncan",
+    "details": "Eng. Rm. Art. 3 D/MX 55900 Royal Navy",
+    "sourceRow": 282,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0282",
+    "name": "Grainger, James",
+    "details": "Private 3054844 Royal Scots",
+    "sourceRow": 283,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0283",
+    "name": "Grant, Denis",
+    "details": "Sapper 1875491 Royal Engineers",
+    "sourceRow": 284,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0284",
+    "name": "Grant, Edward",
+    "details": "Private 3054206 Royal Scots",
+    "sourceRow": 285,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0285",
+    "name": "Gray, Christopher",
+    "details": "F. Sapper 1874465 Royal Engineers",
+    "sourceRow": 286,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0286",
+    "name": "Gray, Frederick",
+    "details": "Bernard Private 6201219 Middlesex",
+    "sourceRow": 287,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0287",
+    "name": "Green, Albert",
+    "details": "John Gunner 872245 Royal Artillery",
+    "sourceRow": 288,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0288",
+    "name": "Green, Ernest",
+    "details": "Edward Sergeant 2317132 Royal Corps of Signals.",
+    "sourceRow": 289,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0289",
+    "name": "Green, Frederick",
+    "details": "Lance Sergeant 6203552 Middlesex",
+    "sourceRow": 290,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0290",
+    "name": "Green, Herbert",
+    "details": "Signalman P/JX 187137 Royal Navy",
+    "sourceRow": 291,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0291",
+    "name": "Green, Jack",
+    "details": "Gardfield Lance Corp. 5435557 Royal Engineers",
+    "sourceRow": 292,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0292",
+    "name": "Green, William",
+    "details": "Henry Corporal PO/22388 Royal Marines",
+    "sourceRow": 293,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0293",
+    "name": "Green, William",
+    "details": "John Gunner 853432 Royal Artillery",
+    "sourceRow": 294,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0294",
+    "name": "Greenwood, Norman",
+    "details": "T.J. Commissioned Telegraphist Royal Navy",
+    "sourceRow": 295,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0295",
+    "name": "Gregory, Thomas",
+    "details": "Henry Sapper 1874478-Royal Engineers",
+    "sourceRow": 296,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0296",
+    "name": "Greig, William",
+    "details": "Private 3055409 Royal Scots",
+    "sourceRow": 297,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0297",
+    "name": "Grey. William Edward Petty Officer D/J 106392 Royal Navy",
+    "details": "",
+    "sourceRow": 298,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0298",
+    "name": "Grist, Victor",
+    "details": "Charles Private 2033091 Middlesex",
+    "sourceRow": 299,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0299",
+    "name": "Gubb, Percy",
+    "details": "William M. Private 6213442 Middlesex",
+    "sourceRow": 300,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0300",
+    "name": "Guille, John",
+    "details": "Robert Gunner 856673 Royal Artillery",
+    "sourceRow": 301,
+    "letter": "G"
+  },
+  {
+    "id": "lm-0301",
+    "name": "Haines, Charles",
+    "details": "Henry Lance Corp. 6202150 Middlesex",
+    "sourceRow": 302,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0302",
+    "name": "Hall, Douglas",
+    "details": "James Private 2324196 Royal Corps of Signals",
+    "sourceRow": 303,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0303",
+    "name": "Hall, Geoffrey",
+    "details": "Bathaniel Gunner 870143 Royal Artillery",
+    "sourceRow": 304,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0304",
+    "name": "Hall, Reginald",
+    "details": "Ernest Private 6200766 - Middlesex",
+    "sourceRow": 305,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0305",
+    "name": "Hall, Samuel",
+    "details": "Private 3312015 Royal Scots",
+    "sourceRow": 306,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0306",
+    "name": "Hall, Thoman",
+    "details": "Sergeant 3051855 Royal Scots",
+    "sourceRow": 307,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0307",
+    "name": "Hall, Walter",
+    "details": "Gunner 850942 Royal Artillery",
+    "sourceRow": 308,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0308",
+    "name": "Hall, Walter",
+    "details": "John Private 6204496 Middlesex",
+    "sourceRow": 309,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0309",
+    "name": "Hamill, Thomas",
+    "details": "Private 3054391 Royal Scots",
+    "sourceRow": 310,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0310",
+    "name": "Hamilton, Isaac",
+    "details": "Private 3053609 Royal Scots",
+    "sourceRow": 311,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0311",
+    "name": "Hammond, Frank",
+    "details": "Stoker 1st Class D/KX 91967 Royal Navy",
+    "sourceRow": 312,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0312",
+    "name": "Handford, John",
+    "details": "Frederick Lance Corp. 6203528 Middlesex",
+    "sourceRow": 313,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0313",
+    "name": "Hanley, George",
+    "details": "Gunner 851944 Royal Artillery",
+    "sourceRow": 314,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0314",
+    "name": "Hannan, Thomas",
+    "details": "Bernard Lance Bdr. 838575 Royal Artillery",
+    "sourceRow": 315,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0315",
+    "name": "Hardington, Ronald",
+    "details": "Gunner 872514 Royal Artillery",
+    "sourceRow": 316,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0316",
+    "name": "Hardy, Francis",
+    "details": "Gordon Leading Seaman C/JX 138044 Royal Navy",
+    "sourceRow": 317,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0317",
+    "name": "Hare, Charles",
+    "details": "Private 6213445 Middlesex",
+    "sourceRow": 318,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0318",
+    "name": "Harkinson, William",
+    "details": "John Signalman 3312404 Royal Corps of Signaln",
+    "sourceRow": 319,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0319",
+    "name": "Harper, Henry",
+    "details": "George Lance Bdr. 851852 Royal Artillery",
+    "sourceRow": 320,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0320",
+    "name": "Harper, Ronald",
+    "details": "George P.O. Stoker C/KX 79052 Royal Navy",
+    "sourceRow": 321,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0321",
+    "name": "Harrigan, Prancis",
+    "details": "William Lance Corp. 1874466 Royal Engineers",
+    "sourceRow": 322,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0322",
+    "name": "Harris, Charles",
+    "details": "Richard Private 6203248 Middlesex",
+    "sourceRow": 323,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0323",
+    "name": "Harris, George",
+    "details": "Arthur Able Seaman P/SSX 19802 Royal Navy",
+    "sourceRow": 324,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0324",
+    "name": "Harrison, Richard",
+    "details": "Stuart W.O. 60A Hong Kong Royal Naval Volunteer Reserve",
+    "sourceRow": 325,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0325",
+    "name": "Hart, Robert",
+    "details": "Private 3055004 Royal Scots",
+    "sourceRow": 326,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0326",
+    "name": "Harvey, Cyril",
+    "details": "Gunner 1460537 Royal Artillery",
+    "sourceRow": 327,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0327",
+    "name": "Harvey, Cyril",
+    "details": "Private 6201300 Middlesex",
+    "sourceRow": 328,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0328",
+    "name": "Harvey, James",
+    "details": "Private 3054818 Royal Scots",
+    "sourceRow": 329,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0329",
+    "name": "Hatchett, Percy",
+    "details": "John Private 6194537 Middlesex",
+    "sourceRow": 330,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0330",
+    "name": "Hatfield, Charles",
+    "details": "Henry Lance Corp. 6200350 Middlesex",
+    "sourceRow": 331,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0331",
+    "name": "Hatton, Thomas",
+    "details": "Gunner 1426632 Royal Artillery",
+    "sourceRow": 332,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0332",
+    "name": "Havercroft, Samuel",
+    "details": "Private 3054791 Royal Scots",
+    "sourceRow": 333,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0333",
+    "name": "Haviland, Charles",
+    "details": "Stephen Telegraphist C/J 53451 Royal Navy",
+    "sourceRow": 334,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0334",
+    "name": "Hawkins, Joseph",
+    "details": "Edward Lance Sergeant 1873339 Royal Engineers",
+    "sourceRow": 335,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0335",
+    "name": "Hawksworth, William",
+    "details": "E.J. L. Signalman C/JX 136629 Royal Navy",
+    "sourceRow": 336,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0336",
+    "name": "Haynes, Harold",
+    "details": "George Lance Corp. 823461 Royal Engineers",
+    "sourceRow": 337,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0337",
+    "name": "Hayward, Walter",
+    "details": "Alfred Private 6197328 Middlesex",
+    "sourceRow": 338,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0338",
+    "name": "Headley, William",
+    "details": "Arthur Captain 102329 Hong Kong & Singapore Royal Artillery",
+    "sourceRow": 339,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0339",
+    "name": "Healy, Dennis",
+    "details": "Able Seaman C/JX 228518 Royal Navy",
+    "sourceRow": 340,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0340",
+    "name": "Hemmingfield, Arthur",
+    "details": "Gunner 1722938 Royal Artillery",
+    "sourceRow": 341,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0341",
+    "name": "Henderson, David",
+    "details": "C/Sergeant 3050476 Royal Scots",
+    "sourceRow": 342,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0342",
+    "name": "Henderson, Francis",
+    "details": "Drummer 3054418 Royal Scots",
+    "sourceRow": 343,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0343",
+    "name": "Henderson, Lancelot",
+    "details": "BSM 1055915 Royal Artillery",
+    "sourceRow": 344,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0344",
+    "name": "Hendy, Norman",
+    "details": "P.O. Sick Berth D/MX 48101 Royal Navy",
+    "sourceRow": 345,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0345",
+    "name": "Heslop, James",
+    "details": "Gunner 4271271 Royal Artillery",
+    "sourceRow": 346,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0346",
+    "name": "Hewer, Edward",
+    "details": "Henry J. Signalman 2324099 Royal Corps of Signals",
+    "sourceRow": 347,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0347",
+    "name": "Hewitt, Frank",
+    "details": "Gunner 2571743 Royal Artillery",
+    "sourceRow": 348,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0348",
+    "name": "Hewson, Thomas",
+    "details": "James Gunner 838991 Royal Artillery",
+    "sourceRow": 349,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0349",
+    "name": "Hickman, Oscar",
+    "details": "Lance Bdr. 851812 Royal Artillery",
+    "sourceRow": 350,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0350",
+    "name": "Hildred, Reginald",
+    "details": "John Gunner 822542 Royal Artillery",
+    "sourceRow": 351,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0351",
+    "name": "Hill, Ernest",
+    "details": "Gunner 863022 Royal Artillery",
+    "sourceRow": 352,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0352",
+    "name": "Hill, George",
+    "details": "Able Seaman D/JX 194218 Royal Navy",
+    "sourceRow": 353,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0353",
+    "name": "Hinge, Frank",
+    "details": "Charles Able Seaman P/J 97839 Royal Navy",
+    "sourceRow": 354,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0354",
+    "name": "Hiscock, Albert",
+    "details": "Roy Gunner 872629 Royal Artillery",
+    "sourceRow": 355,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0355",
+    "name": "Hitchin, Henry",
+    "details": "Alfred Gunner 841096 Royal Artillery",
+    "sourceRow": 356,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0356",
+    "name": "Hodge, John",
+    "details": "Henry Signalman 2330299 Royal Corps of Signals",
+    "sourceRow": 357,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0357",
+    "name": "Hodge, Walter",
+    "details": "Resolution Corporal 726718 Royal Corps of Signals",
+    "sourceRow": 358,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0358",
+    "name": "Hodgson, Robert",
+    "details": "Leading Stoker P/K 65270 Royal Navy",
+    "sourceRow": 359,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0359",
+    "name": "Hodkinson, Kenneth",
+    "details": "T. Private 3055984 Royal Scots",
+    "sourceRow": 360,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0360",
+    "name": "Hogan, William",
+    "details": "Gunner 1426776 Royal Artillery",
+    "sourceRow": 361,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0361",
+    "name": "Holt, James",
+    "details": "Samuel Telegraphist P/JX201158 Royal Navy",
+    "sourceRow": 362,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0362",
+    "name": "Homburg, John",
+    "details": "Sydney Sergeant 1870026 Royal Engineers",
+    "sourceRow": 363,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0363",
+    "name": "Hooley. Reginald Gunner 1720618 Royal Artillery",
+    "details": "",
+    "sourceRow": 364,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0364",
+    "name": "Hope, Arthur",
+    "details": "Private-6283550 Middlesex",
+    "sourceRow": 365,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0365",
+    "name": "Hopkins, Francis",
+    "details": "Yonge Signalman C/J 59399 Royal Navy",
+    "sourceRow": 366,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0366",
+    "name": "Horner, George",
+    "details": "Borham Gunner 850600 Royal Artillery",
+    "sourceRow": 367,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0367",
+    "name": "Horsley, Eric",
+    "details": "Marine PO/X 3159 Royal Marines",
+    "sourceRow": 368,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0368",
+    "name": "Hosford, Robert",
+    "details": "P.O. Telegraphist D/JX 139032 Royal Navy",
+    "sourceRow": 369,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0369",
+    "name": "Houghton, Francis",
+    "details": "John Private 2613967 Middlesex",
+    "sourceRow": 370,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0370",
+    "name": "Howarth, John",
+    "details": "W. Lance Bdr. 3382511 Royal Artillery",
+    "sourceRow": 371,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0371",
+    "name": "Howson, Ronald",
+    "details": "L. Sick Berth Att. D/MX 53857 Royal Navy",
+    "sourceRow": 372,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0372",
+    "name": "Hughes, William",
+    "details": "Private 3054029 Royal Scots",
+    "sourceRow": 373,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0373",
+    "name": "Hull, George",
+    "details": "James P. L. Sick Berth Att. D/MX 55902 Royal Navy",
+    "sourceRow": 374,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0374",
+    "name": "Husband, Edwin",
+    "details": "Corporal 2023101 Royal Corps of Signals",
+    "sourceRow": 375,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0375",
+    "name": "Hutchinson, George",
+    "details": "W. Chief F.0. C/JX 126731 Royal Navy",
+    "sourceRow": 376,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0376",
+    "name": "Hutchison, William",
+    "details": "Private 2750645 Royal Scots",
+    "sourceRow": 377,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0377",
+    "name": "Hutton, Edmund",
+    "details": "Feltham Leading Writer D/MX 66831 - Royal Navy",
+    "sourceRow": 378,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0378",
+    "name": "Iles, Arthur",
+    "details": "Henry Private 6206824 Middlesex",
+    "sourceRow": 379,
+    "letter": "I"
+  },
+  {
+    "id": "lm-0379",
+    "name": "Irving, Malcolm",
+    "details": "Private 3054163 Royal Scots",
+    "sourceRow": 380,
+    "letter": "I"
+  },
+  {
+    "id": "lm-0380",
+    "name": "Isaac, Harry",
+    "details": "Gunner 847279 Royal Artillery",
+    "sourceRow": 381,
+    "letter": "I"
+  },
+  {
+    "id": "lm-0381",
+    "name": "Iszard, George",
+    "details": "Lance Corp. 5335415- Middlesex",
+    "sourceRow": 382,
+    "letter": "I"
+  },
+  {
+    "id": "lm-0382",
+    "name": "Jackson, Albert",
+    "details": "James Private 6301824 Middlesex",
+    "sourceRow": 383,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0383",
+    "name": "Jackson, George",
+    "details": "Allborn Private 3054098 Royal Scota",
+    "sourceRow": 384,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0384",
+    "name": "Jalland, Jack",
+    "details": "Edward Able Seaman C/JX 125501 Royal Navy",
+    "sourceRow": 385,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0385",
+    "name": "James, James",
+    "details": "Ivor Private 6201862 Middlesex",
+    "sourceRow": 386,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0386",
+    "name": "Jeffrey, Andrew",
+    "details": "Buchan Private 3055283 Royal Scots",
+    "sourceRow": 387,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0387",
+    "name": "Jenkins, Charles",
+    "details": "Private 3054979 Royal Scots",
+    "sourceRow": 388,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0388",
+    "name": "Jenkins, Ernest",
+    "details": "Corporal 3054179 Royal Scots",
+    "sourceRow": 389,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0389",
+    "name": "Jennings, Albert",
+    "details": "George - Private 6203943 Middlesex",
+    "sourceRow": 390,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0390",
+    "name": "Jinks, Henry",
+    "details": "Gunner 2325377 Royal Artillery",
+    "sourceRow": 391,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0391",
+    "name": "Johns, Denzil",
+    "details": "BOMS 1416983 Hong Kong  Singapore Royal Artillery",
+    "sourceRow": 392,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0392",
+    "name": "Johnson, Arthur",
+    "details": "James Gunner 880914 Royal Artillery",
+    "sourceRow": 393,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0393",
+    "name": "Johnson, Frederick",
+    "details": "W. C.P.O. Writer C/MX 53641 Royal Navy",
+    "sourceRow": 394,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0394",
+    "name": "Johnson, Oliver",
+    "details": "Gunner 851492 Royal Artillery",
+    "sourceRow": 395,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0395",
+    "name": "Johnson, Wilfred",
+    "details": "James Sapper 2111602 Royal Engineera",
+    "sourceRow": 396,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0396",
+    "name": "Johnston, James",
+    "details": "Private 3054478 Royal Scots",
+    "sourceRow": 397,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0397",
+    "name": "Johnston, Robert",
+    "details": "James Private 3312573- Royal Scots",
+    "sourceRow": 398,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0398",
+    "name": "Jones, Gonville",
+    "details": "Royce Petty Officer D/JX 138348 Royal Bavy",
+    "sourceRow": 399,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0399",
+    "name": "Jones, Herbert",
+    "details": "Cyril Marine PLY/X 48 Royal Marines",
+    "sourceRow": 400,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0400",
+    "name": "Jones, James",
+    "details": "Thomas A. Signalman D/JX 232518 Royal Navy",
+    "sourceRow": 401,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0401",
+    "name": "Jones, Thomas",
+    "details": "David Private 6213447 Middlesex",
+    "sourceRow": 402,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0402",
+    "name": "Jordan-Bowditch, Horace",
+    "details": "Signalman 2333643 Royal Corps of Signals",
+    "sourceRow": 403,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0403",
+    "name": "Josiin, Henry",
+    "details": "John Lance Corp. 6201201 Middlesex",
+    "sourceRow": 404,
+    "letter": "J"
+  },
+  {
+    "id": "lm-0404",
+    "name": "Kearns, James",
+    "details": "Bruce Eng. Rm Art. 1 C/MX 55895 Royal Navy",
+    "sourceRow": 405,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0405",
+    "name": "Kehoe, Edward",
+    "details": "Michael Sapper 1868723 Royal Engineers",
+    "sourceRow": 406,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0406",
+    "name": "Kelly, Maurice",
+    "details": "Private 3055718 Royal Scots",
+    "sourceRow": 407,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0407",
+    "name": "Kemp, Stanley",
+    "details": "Able Seaman D/JX 167288 Royal Navy",
+    "sourceRow": 408,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0408",
+    "name": "Kennard, Herbert",
+    "details": "W.G. Petty Officer C/J 18821 Royal Navy",
+    "sourceRow": 409,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0409",
+    "name": "Kennedy, Albert",
+    "details": "Lance Corp. 4535885 Royal Engineers",
+    "sourceRow": 410,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0410",
+    "name": "Kennedy. John Alexander Private 2874298 Royal Scots",
+    "details": "",
+    "sourceRow": 411,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0411",
+    "name": "Kenny, Michael",
+    "details": "Gunner 863041 Royal Artillery",
+    "sourceRow": 412,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0412",
+    "name": "Kerruish, John",
+    "details": "Alfred Lance Bdr. 1492450 Royal Artillery",
+    "sourceRow": 413,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0413",
+    "name": "Eew. Henry Charles Seaman Gunner 66 Hong Kong Royal Naval Volunteer Reserve",
+    "details": "",
+    "sourceRow": 414,
+    "letter": "E"
+  },
+  {
+    "id": "lm-0414",
+    "name": "Kimber, James",
+    "details": "Lance Sergeant 860930 Royal Artillery",
+    "sourceRow": 415,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0415",
+    "name": "Kimber, Walter",
+    "details": "William F.O.Motor Mec. P/MX 67981 Royal Navy",
+    "sourceRow": 416,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0416",
+    "name": "Kimpton, William",
+    "details": "Ernest Sapper 2078353 Royal Engineers",
+    "sourceRow": 417,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0417",
+    "name": "King, Ernest",
+    "details": "Alfred Telegraphist P/JX 178899 Royal Navy",
+    "sourceRow": 418,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0418",
+    "name": "King, John",
+    "details": "Kenneth P.O. Supply C/MX 54645 Royal Navy",
+    "sourceRow": 419,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0419",
+    "name": "Kinnard, William",
+    "details": "Henry Gunner 868984 Royal Artillery",
+    "sourceRow": 420,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0420",
+    "name": "Kirby, Alfred",
+    "details": "Private 3061781 Royal Scots",
+    "sourceRow": 421,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0421",
+    "name": "Knowles, Roland",
+    "details": "Ernest Captain 147496 Royal Artillery",
+    "sourceRow": 422,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0422",
+    "name": "Knox, David",
+    "details": "Seaman Gunner 76 Hong Kong Royal Naval Volunteer Reserve",
+    "sourceRow": 423,
+    "letter": "K"
+  },
+  {
+    "id": "lm-0423",
+    "name": "Lake, Alexander",
+    "details": "Sidney Sapper 5725990 Royal Engineers",
+    "sourceRow": 424,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0424",
+    "name": "Lamb, Peter",
+    "details": "McDonald Private 3054188 Royal Scots",
+    "sourceRow": 425,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0425",
+    "name": "Lane, Francis",
+    "details": "Edward Gunner 872298 Royal Artillery",
+    "sourceRow": 426,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0426",
+    "name": "Lane, John",
+    "details": "Hugh Gunner 842492 Royal Artillery",
+    "sourceRow": 427,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0427",
+    "name": "Langdell, Stanley",
+    "details": "Private 6213525 Middlesex",
+    "sourceRow": 428,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0428",
+    "name": "Langley-Bates, Ronald",
+    "details": "Clk of Wks 30877 Royal Engineers",
+    "sourceRow": 429,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0429",
+    "name": "Langridge, Walter",
+    "details": "T. Gunner 860097 Royal Artillery",
+    "sourceRow": 430,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0430",
+    "name": "Law, Reginald",
+    "details": "Private 6213526 Middlesex",
+    "sourceRow": 431,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0431",
+    "name": "Lawlor, William",
+    "details": "John Private 6210537 Middlesex",
+    "sourceRow": 432,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0432",
+    "name": "Lee, Frederick",
+    "details": "Charles - Private 6213534 Middlesex",
+    "sourceRow": 433,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0433",
+    "name": "Lee, Frederick",
+    "details": "George Eng. Rm. Art. 3 D/MX 47790 Royal Navy",
+    "sourceRow": 434,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0434",
+    "name": "Lees, Alexander",
+    "details": "Eng. Rm. Art. 3 D/MX 51876 Royal Navy",
+    "sourceRow": 435,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0435",
+    "name": "Leigh, Thomas",
+    "details": "Richard Gunner 1426647 Royal Artillery",
+    "sourceRow": 436,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0436",
+    "name": "Lewis, Arthur",
+    "details": "Signalman 419577 Royal Corps of Signals",
+    "sourceRow": 437,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0437",
+    "name": "Lewis, Daniel",
+    "details": "L. Sick Berth Att. D/MX 49903 Royal Navy",
+    "sourceRow": 438,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0438",
+    "name": "Lewis, Ernest",
+    "details": "Gunner 872538 Royal Artillery",
+    "sourceRow": 439,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0439",
+    "name": "Lifton, Cyril",
+    "details": "Alfred B. Shipwright 1/CC/M 27929 Royal Navy",
+    "sourceRow": 440,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0440",
+    "name": "Limacher, Frank",
+    "details": "Oliver Gunner 855243 Royal Artillery",
+    "sourceRow": 441,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0441",
+    "name": "Linklater, Albert",
+    "details": "Private 3054084 Royal Scots",
+    "sourceRow": 442,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0442",
+    "name": "Linton, James",
+    "details": "Frederick Gunner 1438820 Royal Artillery",
+    "sourceRow": 443,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0443",
+    "name": "Lintott, George",
+    "details": "Private 3055000 Royal Scots",
+    "sourceRow": 444,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0444",
+    "name": "Little, John",
+    "details": "Thomas COMS 6195113 Middlesex",
+    "sourceRow": 445,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0445",
+    "name": "Littlefield. Frederick Private 6203592- Middlesex",
+    "details": "",
+    "sourceRow": 446,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0446",
+    "name": "Livesey, Albert",
+    "details": "Charles Gunner 1492461 Royal Artillery",
+    "sourceRow": 447,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0447",
+    "name": "Lochrie, George",
+    "details": "S. Lance Sergeant 3054097 Royal Scots",
+    "sourceRow": 448,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0448",
+    "name": "Logan, Sydney",
+    "details": "Private 3063125 Royal Scots",
+    "sourceRow": 449,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0449",
+    "name": "Loughlin, Peter",
+    "details": "Harry Police Sergeant PSA/45 Hong Kong Police Force",
+    "sourceRow": 450,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0450",
+    "name": "Love, Noel",
+    "details": "John Gunner 1426793 Royal Artillery",
+    "sourceRow": 451,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0451",
+    "name": "Ludford, Arthur",
+    "details": "Herbert Master at Arms D/M 39771 Royal Navy",
+    "sourceRow": 452,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0452",
+    "name": "Lyon, George",
+    "details": "BSM 819554 Royal Artillery",
+    "sourceRow": 453,
+    "letter": "L"
+  },
+  {
+    "id": "lm-0453",
+    "name": "MacDonald, Thomas",
+    "details": "Lance Corp. 2321689 Royal Corps of Signals",
+    "sourceRow": 454,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0454",
+    "name": "Mace, Frank",
+    "details": "Edward Gunner 5181300 Royal Artillery",
+    "sourceRow": 455,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0455",
+    "name": "Mace, Harry",
+    "details": "Leslie Gunner 5498724 Royal Artillery",
+    "sourceRow": 456,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0456",
+    "name": "Macey, Frank",
+    "details": "Leslie Private 6203568 Middlesex",
+    "sourceRow": 457,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0457",
+    "name": "Mackay, William",
+    "details": "Private 2927763 Royal Scots",
+    "sourceRow": 458,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0458",
+    "name": "Mackenny, William",
+    "details": "Henry L. Sick Berth Att. D/MX 50095 Royal Navy",
+    "sourceRow": 459,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0459",
+    "name": "Mair, William",
+    "details": "Skipper Royal Navy",
+    "sourceRow": 460,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0460",
+    "name": "Makel, George",
+    "details": "Smith BSM 426254 Royal Artillery",
+    "sourceRow": 461,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0461",
+    "name": "Manders, Thomas",
+    "details": "George Sapper 1876394 Royal Engineers",
+    "sourceRow": 462,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0462",
+    "name": "Mann. Charles Henry Able Seaman D/JX 137274 Royal Navy",
+    "details": "",
+    "sourceRow": 463,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0463",
+    "name": "Marriott, William",
+    "details": "Henry L. Telegraphist C/JX 145860 Royal Navy",
+    "sourceRow": 464,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0464",
+    "name": "Marrs, William",
+    "details": "Signalman P/JX 190653 Royal Navy",
+    "sourceRow": 465,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0465",
+    "name": "Marsh, William",
+    "details": "Thomas Sergeant 819817 Royal Artillery",
+    "sourceRow": 466,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0466",
+    "name": "Marshall, Henry",
+    "details": "Gibson Private 7884695 Royal Scots",
+    "sourceRow": 467,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0467",
+    "name": "Marshall, Thomas",
+    "details": "Private 3051064 Royal Scots",
+    "sourceRow": 468,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0468",
+    "name": "Martin, Frank",
+    "details": "Warrant Wardmaster- Royal Navy",
+    "sourceRow": 469,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0469",
+    "name": "Mason, William",
+    "details": "Alfred Gunner 863085 Royal Artillery",
+    "sourceRow": 470,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0470",
+    "name": "Matthew, Alexander",
+    "details": "M Private 6213541 Middlesex",
+    "sourceRow": 471,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0471",
+    "name": "May, Wilfred",
+    "details": "Able Seaman C/JX 219867 Royal Navy",
+    "sourceRow": 472,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0472",
+    "name": "Maynard, James",
+    "details": "Alfred Private 6201245 Middlesex",
+    "sourceRow": 473,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0473",
+    "name": "McAndrews, George",
+    "details": "B. Sapper 2070145 Royal Engineers",
+    "sourceRow": 474,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0474",
+    "name": "McBride, Alexander",
+    "details": "D. Gunner 851575 Royal Artillery",
+    "sourceRow": 475,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0475",
+    "name": "McCallum, William",
+    "details": "Corporal 3055201 Royal Scots",
+    "sourceRow": 476,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0476",
+    "name": "McCormack, Bernard",
+    "details": "Lance Bdr. 851886 Royal Artillery",
+    "sourceRow": 477,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0477",
+    "name": "McCulloch, William",
+    "details": "Private 3044711 Royal Scots",
+    "sourceRow": 478,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0478",
+    "name": "McDermott, Corneliue",
+    "details": "Private 3312004 Royal Scote",
+    "sourceRow": 479,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0479",
+    "name": "McDermott, Jamen",
+    "details": "Gunner 1493080 Royal Artillery",
+    "sourceRow": 480,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0480",
+    "name": "McDermott, Lawrence",
+    "details": "Gunner 1060132 Royal Artillery",
+    "sourceRow": 481,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0481",
+    "name": "McElroy, John",
+    "details": "Gunner 860391 Royal Artillery",
+    "sourceRow": 482,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0482",
+    "name": "McEneaney, James",
+    "details": "Signalman 2323476 Royal Corps of Signals",
+    "sourceRow": 483,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0483",
+    "name": "McGhee, James",
+    "details": "Preston 2nd Lieutenant 180036 Royal Scots",
+    "sourceRow": 484,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0484",
+    "name": "McGillivray, James",
+    "details": "Private 3053697 Royal Scots",
+    "sourceRow": 485,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0485",
+    "name": "McGivney, John",
+    "details": "Gunner 1722943 Royal Artillery",
+    "sourceRow": 486,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0486",
+    "name": "McGrath, William",
+    "details": "Patrick Petty Officer D/J 98250 Royal Navy",
+    "sourceRow": 487,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0487",
+    "name": "McHugh, Bernard",
+    "details": "Private 3528442 Royal Scots",
+    "sourceRow": 488,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0488",
+    "name": "Mellwraith, Wilfred",
+    "details": "A. Sapper 1873030 Royal Engineers",
+    "sourceRow": 489,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0489",
+    "name": "McKinlay, Robert",
+    "details": "Piper 3054096 Royal Scots",
+    "sourceRow": 490,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0490",
+    "name": "McLean, Andrew",
+    "details": "H. Private 2980621 Royal Scots",
+    "sourceRow": 491,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0491",
+    "name": "McLean, Joseph",
+    "details": "Henry Lance Bdr. 1426733 Royal Artillery",
+    "sourceRow": 492,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0492",
+    "name": "McMeechan, Hugh",
+    "details": "M. Private 3055184 Royal Scots",
+    "sourceRow": 493,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0493",
+    "name": "McPherson, Charles",
+    "details": "D. Private 3063711 Royal Scots",
+    "sourceRow": 494,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0494",
+    "name": "McQueen, George",
+    "details": "M. Able Seaman D/JX 169654 Royal Navy",
+    "sourceRow": 495,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0495",
+    "name": "McSherry, Peter",
+    "details": "Private 2975315 Royal Scots",
+    "sourceRow": 496,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0496",
+    "name": "Mead, James",
+    "details": "Charles E. CSM 3046672 Royal Scots",
+    "sourceRow": 497,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0497",
+    "name": "Medley, Lloyd",
+    "details": "Charles Gunner 845448 Royal Artillery",
+    "sourceRow": 498,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0498",
+    "name": "Melbourne, Frank",
+    "details": "Edward Private 6895657 Middlesex",
+    "sourceRow": 499,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0499",
+    "name": "Mellows. Stephen John C.P.O. Writer D/MX 47034 Royal Navy",
+    "details": "",
+    "sourceRow": 500,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0500",
+    "name": "Melton, John",
+    "details": "William Petty Officer 2/3 39300 Royal Navy",
+    "sourceRow": 501,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0501",
+    "name": "Mendelson, Arthur",
+    "details": "L. Private 6202787 Middlesex",
+    "sourceRow": 502,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0502",
+    "name": "Metcalfe, Ernest",
+    "details": "Marine PD/215951 Royal Marines",
+    "sourceRow": 503,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0503",
+    "name": "Metcalfe, Thomas",
+    "details": "Arthur Private 3523209 Middlesex",
+    "sourceRow": 504,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0504",
+    "name": "Miller, Donald",
+    "details": "Private 9063332 Royal Scots",
+    "sourceRow": 505,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0505",
+    "name": "Minchin, Arthur",
+    "details": "Felix Gunner 317526 Royal Artillery",
+    "sourceRow": 506,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0506",
+    "name": "Miners, James",
+    "details": "Gunner 4343532 Royal Artillery",
+    "sourceRow": 507,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0507",
+    "name": "Morgan, Trevor",
+    "details": "Kenneth Lance Corp. 2323570 Royal Corps of Signals",
+    "sourceRow": 508,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0508",
+    "name": "Morris, Richard",
+    "details": "Private 3054809 Royal Scots",
+    "sourceRow": 509,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0509",
+    "name": "Morris, William",
+    "details": "Thomas Private 6203949 Middlesex",
+    "sourceRow": 510,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0510",
+    "name": "Morrison, Edward",
+    "details": "Private 6213567 Middlesex",
+    "sourceRow": 511,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0511",
+    "name": "Morrow. William Lance Corp. 3054065 Royal Scots",
+    "details": "",
+    "sourceRow": 512,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0512",
+    "name": "Morse, Charles",
+    "details": "John P.O. Stoker D/K 65312 Royal Navy",
+    "sourceRow": 513,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0513",
+    "name": "Mose, George",
+    "details": "Alfred BSM 1422598 Royal Artillery",
+    "sourceRow": 514,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0514",
+    "name": "Moxham, Henry",
+    "details": "Richard Lance Corp. 1867732 Royal Engineers",
+    "sourceRow": 515,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0515",
+    "name": "Mulcahy, Michael",
+    "details": "D. Able Seaman D/JX 143657 Royal Navy",
+    "sourceRow": 516,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0516",
+    "name": "Murphy, Thomas",
+    "details": "Private 6202110 Middlesex",
+    "sourceRow": 517,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0517",
+    "name": "Murray, John",
+    "details": "Stuart Private 6201274 Middlesex",
+    "sourceRow": 518,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0518",
+    "name": "Murray, William",
+    "details": "Private 3063686 Royal Scots",
+    "sourceRow": 519,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0519",
+    "name": "Murrell, Arthur",
+    "details": "Robert Private 6210542 Middlesex",
+    "sourceRow": 520,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0520",
+    "name": "Musto, Stanley",
+    "details": "Arthur Lance Sergeant 1069779 Hong Kong & Singapore Royal Artillery",
+    "sourceRow": 521,
+    "letter": "M"
+  },
+  {
+    "id": "lm-0521",
+    "name": "Hayler, Herbert",
+    "details": "Edgar COMS 6199294 Middlesex",
+    "sourceRow": 522,
+    "letter": "H"
+  },
+  {
+    "id": "lm-0522",
+    "name": "Nellist, James",
+    "details": "Gunner 1438807 Royal Artillery",
+    "sourceRow": 523,
+    "letter": "N"
+  },
+  {
+    "id": "lm-0523",
+    "name": "Bewington, Richard",
+    "details": "T. J. Lance Sergeant 1870427 Royal Engineers",
+    "sourceRow": 524,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0524",
+    "name": "Newman, Thomas",
+    "details": "Harry Lance Sergeant 1869298 Royal Engineers",
+    "sourceRow": 525,
+    "letter": "N"
+  },
+  {
+    "id": "lm-0525",
+    "name": "Newnham, Bertram",
+    "details": "C. Lance Corp. 837990 Royal Corps of Signals",
+    "sourceRow": 526,
+    "letter": "N"
+  },
+  {
+    "id": "lm-0526",
+    "name": "Newton, Percy",
+    "details": "Alfred and Lieutenant 145629 Middlesex",
+    "sourceRow": 527,
+    "letter": "N"
+  },
+  {
+    "id": "lm-0527",
+    "name": "Norman, Alfred",
+    "details": "William Gunner 1712272 Royal Artillery",
+    "sourceRow": 528,
+    "letter": "N"
+  },
+  {
+    "id": "lm-0528",
+    "name": "North, Albert",
+    "details": "James Gunner 5569751 Royal Artillery",
+    "sourceRow": 529,
+    "letter": "N"
+  },
+  {
+    "id": "lm-0529",
+    "name": "North, Frederick",
+    "details": "Ernest Private 5988960 Middlesex",
+    "sourceRow": 530,
+    "letter": "N"
+  },
+  {
+    "id": "lm-0530",
+    "name": "O'Connell, Jeremiah",
+    "details": "Gunner 1426783 Royal Artillery",
+    "sourceRow": 531,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0531",
+    "name": "O'Connor, Michael",
+    "details": "Oliver Private 3055943 Royal Scots",
+    "sourceRow": 532,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0532",
+    "name": "O'Rourke, Thomas",
+    "details": "Private 3055389 Royal Scots",
+    "sourceRow": 533,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0533",
+    "name": "O'Sullivan, Bartholomew",
+    "details": "Stoker P.O. F/K59642 Royal Navy",
+    "sourceRow": 534,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0534",
+    "name": "Cakley, Thomas",
+    "details": "Ernest Gunner 1470954 Royal Artillery",
+    "sourceRow": 535,
+    "letter": "C"
+  },
+  {
+    "id": "lm-0535",
+    "name": "Officer, John",
+    "details": "Moore Major 47734 Royal Army Medical Corps",
+    "sourceRow": 536,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0536",
+    "name": "Oliver, John",
+    "details": "Robert Leading Seaman C/SSX 21162 Royal Navy",
+    "sourceRow": 537,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0537",
+    "name": "Ormiston, John",
+    "details": "Mitchell Lance Corp. 3059298 Royal Scots",
+    "sourceRow": 538,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0538",
+    "name": "Orr, Terance",
+    "details": "Nolan G. Gunner 1426795 Royal Artillery",
+    "sourceRow": 539,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0539",
+    "name": "Osman, Harry",
+    "details": "James Petty Officer P/J 105839 Royal Navy",
+    "sourceRow": 540,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0540",
+    "name": "Oswald, Ronald",
+    "details": "George Private 6201303 Middlesex",
+    "sourceRow": 541,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0541",
+    "name": "Ousgood, Fred",
+    "details": "Chief E.R.A. P/MX 46649 Royal Navy",
+    "sourceRow": 542,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0542",
+    "name": "Owen, George",
+    "details": "Thomas R.Signalman C/J 80397 Royal Navy",
+    "sourceRow": 543,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0543",
+    "name": "Owen, Glyn",
+    "details": "Gunner. 1493336 Royal Artillery",
+    "sourceRow": 544,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0544",
+    "name": "Owen, Gordon",
+    "details": "John Lance Sergeant 1066923 Royal Artillery",
+    "sourceRow": 545,
+    "letter": "O"
+  },
+  {
+    "id": "lm-0545",
+    "name": "Pacey, Arthur",
+    "details": "Lance Corp. 6201830 Middlesex",
+    "sourceRow": 546,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0546",
+    "name": "Fage, Charles",
+    "details": "Albert Sergeant 6201466 Middlesex",
+    "sourceRow": 547,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0547",
+    "name": "Page, William",
+    "details": "Cecil Bombardier 843727 Royal Artillery",
+    "sourceRow": 548,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0548",
+    "name": "Palmer, Joseph",
+    "details": "Benjamin Private 6201414 Middlesex",
+    "sourceRow": 549,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0549",
+    "name": "Panting, Hugh",
+    "details": "Eric R. Corporal 5496071 Middlesex",
+    "sourceRow": 550,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0550",
+    "name": "Pape, George",
+    "details": "William C/J 46941 Royal Navy",
+    "sourceRow": 551,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0551",
+    "name": "Parker, Raymond",
+    "details": "John 6202172 Middlesex",
+    "sourceRow": 552,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0552",
+    "name": "Parkins, George",
+    "details": "Baden Signalman 2316934 Royal Corps of Signals",
+    "sourceRow": 553,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0553",
+    "name": "Parlette, Reginald",
+    "details": "George Supply Assistant C/MK 86692 Royal Navy",
+    "sourceRow": 554,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0554",
+    "name": "Farsons, Arthur",
+    "details": "John Corporal 2323514 Royal Corps of Signals",
+    "sourceRow": 555,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0555",
+    "name": "Paterson, Henry",
+    "details": "Private 3054793 Royal Scots",
+    "sourceRow": 556,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0556",
+    "name": "Payne, Arthur",
+    "details": "Gunner 840853 Royal Artillery",
+    "sourceRow": 557,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0557",
+    "name": "Payne, Terence",
+    "details": "Bobert Lance Corp. 6207623 Middlesex",
+    "sourceRow": 558,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0558",
+    "name": "Pearce, Raymond",
+    "details": "John C. Corporal 6201785 Middlesex",
+    "sourceRow": 559,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0559",
+    "name": "Pearson, Alfred",
+    "details": "Private 6201235 Middlesex",
+    "sourceRow": 560,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0560",
+    "name": "Pearson, Harry",
+    "details": "Sergeant 2317200 Royal Corps of Signals",
+    "sourceRow": 561,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0561",
+    "name": "Peffers, Adam",
+    "details": "Corporal 3051813 Royal Scots",
+    "sourceRow": 562,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0562",
+    "name": "Pelham, Harold",
+    "details": "Alfred G. Corporal 6201290 Middlesex",
+    "sourceRow": 563,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0563",
+    "name": "Pembroke, William",
+    "details": "Henry Gunner 843803 Royal Artillery",
+    "sourceRow": 564,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0564",
+    "name": "Pennick, Reginald",
+    "details": "Joseph Lance Corp. 6201384 Middlesex",
+    "sourceRow": 565,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0565",
+    "name": "Penny, Richard",
+    "details": "Arthur Private 6207076 Middlesex",
+    "sourceRow": 566,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0566",
+    "name": "Pepper, Frank",
+    "details": "Crookes Sapper 1872831 Royal Engineers",
+    "sourceRow": 567,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0567",
+    "name": "Perkins, Leslie",
+    "details": "George Chief E.R.A.D/MX 46040 Royal Havy",
+    "sourceRow": 568,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0568",
+    "name": "Ferry. Donald Charles Corporal 1873120 Royal Engineers",
+    "details": "",
+    "sourceRow": 569,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0569",
+    "name": "Philipson, John",
+    "details": "Beaver Lance Sergeant 853346 Royal Artillery",
+    "sourceRow": 570,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0570",
+    "name": "Phillips, Edward",
+    "details": "John Private 6213577 Middlesex",
+    "sourceRow": 571,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0571",
+    "name": "Phillips, Reginald",
+    "details": "Ernest Lance Corp. 3054045 Royal Scots",
+    "sourceRow": 572,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0572",
+    "name": "Phillips, Sydney",
+    "details": "W.E. P.O. Stoker D/KX 82081 Royal Navy",
+    "sourceRow": 573,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0573",
+    "name": "Phipps, John",
+    "details": "Signalman 2323912 Royal Corps of Signals",
+    "sourceRow": 574,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0574",
+    "name": "Fickston, Leslie",
+    "details": "Signalman 2353661 Royal Corps of Signals",
+    "sourceRow": 575,
+    "letter": "F"
+  },
+  {
+    "id": "lm-0575",
+    "name": "Pike, Horace",
+    "details": "Henry G. Chief Stoker D/KX 75591 Royal Navy",
+    "sourceRow": 576,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0576",
+    "name": "Plummer, William",
+    "details": "Arthur Sergeant 5381717 Royal Artillery",
+    "sourceRow": 577,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0577",
+    "name": "Pollard, Leonard",
+    "details": "Hugh L. Telegraphint P/WRX 622 Royal Navy",
+    "sourceRow": 578,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0578",
+    "name": "Pollock, James",
+    "details": "Private 3063734 Royal Scots",
+    "sourceRow": 579,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0579",
+    "name": "Pope, Donald",
+    "details": "Charles Sapper 1922409 Royal Engineers",
+    "sourceRow": 580,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0580",
+    "name": "Potter, Alan",
+    "details": "Stanley Corps Officer St John Ambulance",
+    "sourceRow": 581,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0581",
+    "name": "Potter, John",
+    "details": "Henry Signalman 2325012 Royal Corps of Signals",
+    "sourceRow": 582,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0582",
+    "name": "Potter, John",
+    "details": "Thomas Gunner 868809 Royal Artillery",
+    "sourceRow": 583,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0583",
+    "name": "Potter, Robert",
+    "details": "Gunner 1712293 Royal Artillery",
+    "sourceRow": 584,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0584",
+    "name": "Powell, Albert",
+    "details": "Victor P.O. Cook (S) D/MX 46646 Royal Navy",
+    "sourceRow": 585,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0585",
+    "name": "Powell, william",
+    "details": "John Lance Corp. 3055656 Royal Scots",
+    "sourceRow": 586,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0586",
+    "name": "Pragnell, Charien",
+    "details": "Gunner 851835 Royal Artillery",
+    "sourceRow": 587,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0587",
+    "name": "Pressley, Harvey",
+    "details": "Gunner 1718185 Royal Artillery",
+    "sourceRow": 588,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0588",
+    "name": "Priest, Henry",
+    "details": "Herbert A. Gunner 1712297 Royal Artillery",
+    "sourceRow": 589,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0589",
+    "name": "Priest, William",
+    "details": "James W.O. 95A Hong Kong Royal Naval Volunteer Reserve",
+    "sourceRow": 590,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0590",
+    "name": "Priestley, George",
+    "details": "Gunner 1714991 Royal Artillery",
+    "sourceRow": 591,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0591",
+    "name": "Pring, Mark",
+    "details": "Edward Private 6207641 Middlesex",
+    "sourceRow": 592,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0592",
+    "name": "Pritchard, James",
+    "details": "Gunner 1071368 Royal Artillery",
+    "sourceRow": 593,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0593",
+    "name": "Probert, Sidney",
+    "details": "Charles G. Private 6213548 Middlesex",
+    "sourceRow": 594,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0594",
+    "name": "Pryke, William",
+    "details": "Arthur J. Motor Mechanic P/MX 68681 Royal Navy",
+    "sourceRow": 595,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0595",
+    "name": "Pullar, James",
+    "details": "Bombardier 836220 Royal Artillery",
+    "sourceRow": 596,
+    "letter": "P"
+  },
+  {
+    "id": "lm-0596",
+    "name": "Rainey, Eric",
+    "details": "Sapper 2017013 Royal Engineers",
+    "sourceRow": 597,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0597",
+    "name": "Rainsford, Henry",
+    "details": "Charles Gunner 1426705 Royal Artillery",
+    "sourceRow": 598,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0598",
+    "name": "Ramage, Humphrey",
+    "details": "G. Sapper 795808 Royal Engineers",
+    "sourceRow": 599,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0599",
+    "name": "Ramsay, John",
+    "details": "Fitcher Private 3055647 Royal Scots",
+    "sourceRow": 600,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0600",
+    "name": "Ramsden, John",
+    "details": "Richard Able Seaman C/J60050 Royal Navy.",
+    "sourceRow": 601,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0601",
+    "name": "Ramsey, James",
+    "details": "Robert CSM 6196028 Middlesex",
+    "sourceRow": 602,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0602",
+    "name": "Rankin, Thomas",
+    "details": "BSM 1061282 - Royal Artillery",
+    "sourceRow": 603,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0603",
+    "name": "Baper, William",
+    "details": "George Gunner 805922 Royal Artillery",
+    "sourceRow": 604,
+    "letter": "B"
+  },
+  {
+    "id": "lm-0604",
+    "name": "Ratcliffe, Norman",
+    "details": "Ernest Sapper 1871671 Royal Engineers",
+    "sourceRow": 605,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0605",
+    "name": "Rawlings, Frank",
+    "details": "BSM-2202439 Royal Artillery",
+    "sourceRow": 606,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0606",
+    "name": "Read, Reginald",
+    "details": "John W.O. 107A Hong Kong Royal Naval Volunteer Reserve",
+    "sourceRow": 607,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0607",
+    "name": "Redfern, George",
+    "details": "Stanley Signalman 2353662 Royal Corps of Signals",
+    "sourceRow": 608,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0608",
+    "name": "Reed, George",
+    "details": "William Gunner 859682 Royal Artillery",
+    "sourceRow": 609,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0609",
+    "name": "Rees, Leonard",
+    "details": "Frederick - Gunner 1715105 Royal Artillery",
+    "sourceRow": 610,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0610",
+    "name": "Reeve, Sidney",
+    "details": "Arthur Sapper 1912172 Royal Engineers",
+    "sourceRow": 611,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0611",
+    "name": "Reynolds, Alfred",
+    "details": "John Stoker 1st Class P/SS 125467 Royal Navy",
+    "sourceRow": 612,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0612",
+    "name": "Rice, Thomas",
+    "details": "Able Seaman P/JX 148679 Royal Navy",
+    "sourceRow": 613,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0613",
+    "name": "Richards, Frederick",
+    "details": "W. Sergeant 7258137 Royal Army Medical Corps",
+    "sourceRow": 614,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0614",
+    "name": "Richards, Robert",
+    "details": "William Sergeant 3051826 Royal Scots",
+    "sourceRow": 615,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0615",
+    "name": "Richards, Stanley",
+    "details": "John Gunner 1713996 Royal Artillery",
+    "sourceRow": 616,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0616",
+    "name": "Richardson, Joseph",
+    "details": "H. Marine PO/X 89 Royal Marines",
+    "sourceRow": 617,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0617",
+    "name": "Riches, Jack",
+    "details": "Ernest - PSM 6198989 Middlesex",
+    "sourceRow": 618,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0618",
+    "name": "Richmond, Robert",
+    "details": "Henry Lance Corp. 1871596 Royal Engineers",
+    "sourceRow": 619,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0619",
+    "name": "Ricketts, George",
+    "details": "R. Gunner 853695 Royal Artillery",
+    "sourceRow": 620,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0620",
+    "name": "Ridden, Donald",
+    "details": "Private 6202704 Middlesex",
+    "sourceRow": 621,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0621",
+    "name": "Ritchie, Robert",
+    "details": "Hyslop Private 3054099 Royal Scots",
+    "sourceRow": 622,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0622",
+    "name": "Ritchings, Thomas",
+    "details": "Gunner 872724 Royal Artillery",
+    "sourceRow": 623,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0623",
+    "name": "Roberts, Alfred",
+    "details": "Henry Bombardier 844989 Royal Artillery",
+    "sourceRow": 624,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0624",
+    "name": "Roberts, Charles",
+    "details": "Arthur Lance Corp. 1871282 Royal Engineers",
+    "sourceRow": 625,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0625",
+    "name": "Roberts, John",
+    "details": "Alfred Gunner 1502336 Royal Artillery",
+    "sourceRow": 626,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0626",
+    "name": "Roberts, Leonard",
+    "details": "Private 6202331 Middlesex",
+    "sourceRow": 627,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0627",
+    "name": "Robertson, Albert",
+    "details": "Thomas Private 839788 Middlesex",
+    "sourceRow": 628,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0628",
+    "name": "Robertson, Mornington",
+    "details": "Corporal-2566140 Royal Scots",
+    "sourceRow": 629,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0629",
+    "name": "Robertson, Peter",
+    "details": "Ian H. Lance Corp. 2333539 Royal Corps of Signals",
+    "sourceRow": 630,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0630",
+    "name": "Robinson, Charles",
+    "details": "Shipwright 3/C C/MX 48323 Royal Navy",
+    "sourceRow": 631,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0631",
+    "name": "Robinson, Henry",
+    "details": "Charles Motor Mechanic P/MX 69813 Royal Navy",
+    "sourceRow": 632,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0632",
+    "name": "Robinson, John",
+    "details": "Gunner 872357 Royal Artillery",
+    "sourceRow": 633,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0633",
+    "name": "Robinson, Joseph",
+    "details": "Signalman 2353612 Royal Corps of signals",
+    "sourceRow": 634,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0634",
+    "name": "Robinson, Fercy",
+    "details": "Albert G. Sapper 1875612 Royal Engineers",
+    "sourceRow": 635,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0635",
+    "name": "Rodgers, Stephen",
+    "details": "P. L. Sick Berth Att. D/MX 54162 Royal Navy",
+    "sourceRow": 636,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0636",
+    "name": "Rogers, Ernest",
+    "details": "James W. Gunner 1491034 Royal Artillery",
+    "sourceRow": 637,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0637",
+    "name": "Rogers, John",
+    "details": "Francis COMS 6340597 Royal Corps of Signals",
+    "sourceRow": 638,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0638",
+    "name": "Rompen, George",
+    "details": "Private 4448040 Royal Scots",
+    "sourceRow": 639,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0639",
+    "name": "Rooker, Roy",
+    "details": "Leslie H. Lance Corp. 6202947 Middlesex",
+    "sourceRow": 640,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0640",
+    "name": "Roos, Victor",
+    "details": "Edward Able Seaman C/JX 141248 Royal Navy",
+    "sourceRow": 641,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0641",
+    "name": "Ross, John",
+    "details": "Connacher Private 3055736 Royal Scots",
+    "sourceRow": 642,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0642",
+    "name": "Round, Walter",
+    "details": "Thomas Gunner 1426753 Royal Artillery",
+    "sourceRow": 643,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0643",
+    "name": "Rule, Albert",
+    "details": "Private 6213551 Middlesex",
+    "sourceRow": 644,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0644",
+    "name": "Rule, Charles",
+    "details": "Frederick Lance Corp. 6202369 Middlesex",
+    "sourceRow": 645,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0645",
+    "name": "Rushman, Mervyn",
+    "details": "Francis Sergeant PLY/X 488 Royal Marines",
+    "sourceRow": 646,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0646",
+    "name": "Russell, Alexander",
+    "details": "Lance Corp. 3054869 Royal Scots",
+    "sourceRow": 647,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0647",
+    "name": "Russell, Reginald",
+    "details": "Edward Private 6202948 Middlesex",
+    "sourceRow": 648,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0648",
+    "name": "Russell, Robert",
+    "details": "Private 6202362 Middlesex",
+    "sourceRow": 649,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0649",
+    "name": "Russell, Thomas",
+    "details": "Sergeant 1046474 Royal Artillery",
+    "sourceRow": 650,
+    "letter": "R"
+  },
+  {
+    "id": "lm-0650",
+    "name": "Samuels, Christopher",
+    "details": "Private 6201438 Middlesex",
+    "sourceRow": 651,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0651",
+    "name": "Sansum, Harry",
+    "details": "Private 6198239 Middlesex",
+    "sourceRow": 652,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0652",
+    "name": "Sawyer, William",
+    "details": "Arthur Petty Officer C/J 101193 Royal Navy",
+    "sourceRow": 653,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0653",
+    "name": "Sayce, Thomas",
+    "details": "Gunner 2215242 Royal Artillery",
+    "sourceRow": 654,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0654",
+    "name": "Schorsch, Robert",
+    "details": "Private 6210550 Middlesex",
+    "sourceRow": 655,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0655",
+    "name": "Scott, Alexander",
+    "details": "C. Private 3053649 Royal Scots",
+    "sourceRow": 656,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0656",
+    "name": "Scott, Arthur",
+    "details": "Reginald G. Sapper 5725545 Royal Engineers",
+    "sourceRow": 657,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0657",
+    "name": "Scott, Donald",
+    "details": "Private 3128873 Royal Scots",
+    "sourceRow": 658,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0658",
+    "name": "Scott, Frank",
+    "details": "Douglas Gunner 849557 Royal Artillery",
+    "sourceRow": 659,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0659",
+    "name": "Scott, Robert",
+    "details": "Ferrie Private 3053792 Royal Scote",
+    "sourceRow": 660,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0660",
+    "name": "Scully, John",
+    "details": "Patrick Corporal 2323331 Royal Corps of Signals",
+    "sourceRow": 661,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0661",
+    "name": "Seager, Albert",
+    "details": "Ernest Gunner 863185 Royal Artillery",
+    "sourceRow": 662,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0662",
+    "name": "Searle, Henry",
+    "details": "George A. BOMS 1043916 Hong Kong & Singapore Royal Artillery",
+    "sourceRow": 663,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0663",
+    "name": "Selwood, George",
+    "details": "William Gunner 1712254 Royal Artillery",
+    "sourceRow": 664,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0664",
+    "name": "Sercombe, William",
+    "details": "M. E.R.A. 2/C D/MX 49610 Royal Navy",
+    "sourceRow": 665,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0665",
+    "name": "Sharp, Duncan",
+    "details": "Gunner 900140 Royal Artillery",
+    "sourceRow": 666,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0666",
+    "name": "Sharp, Henry",
+    "details": "Thomas Chief Ord. Art. C/M 38907 Royal Navy",
+    "sourceRow": 667,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0667",
+    "name": "Sharrock, Harold",
+    "details": "Maynard Lance Corp. 3381316 Royal Scots",
+    "sourceRow": 668,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0668",
+    "name": "Shepherd, George",
+    "details": "Gunner 3054194 Royal Scots",
+    "sourceRow": 669,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0669",
+    "name": "Shepherd, Thomas",
+    "details": "W. Signalman 2323228 Royal Corps of Signels",
+    "sourceRow": 670,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0670",
+    "name": "Sherman, Soloman",
+    "details": "A.B. D/JX192821 Royal Navy",
+    "sourceRow": 671,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0671",
+    "name": "Shirkey, John",
+    "details": "Dollar Chief E.R.A. P/195ED Royal Navy",
+    "sourceRow": 672,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0672",
+    "name": "Shields, Thomas",
+    "details": "Perkins Sergeant 1867862 Royal Engineers",
+    "sourceRow": 673,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0673",
+    "name": "Shipp, Cecil",
+    "details": "Edward Able Seaman P/SSX 14017 Royal Navy",
+    "sourceRow": 674,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0674",
+    "name": "Shirlaw, George",
+    "details": "Fitness Lance Sergeant 1054920 Royal Artillery",
+    "sourceRow": 675,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0675",
+    "name": "Shirley, Ernest",
+    "details": "Francis BSM 751875 Royal Artillery",
+    "sourceRow": 676,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0676",
+    "name": "Short, Leslie",
+    "details": "Charles Bandsman - 796168 Middlesex",
+    "sourceRow": 677,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0677",
+    "name": "Simmonds, Harold",
+    "details": "A.P. P.O. Telegraphist P/J 32688 Royal Ravy",
+    "sourceRow": 678,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0678",
+    "name": "Simmons, Edward",
+    "details": "Walter Sapper 1874074 Royal Engineers",
+    "sourceRow": 679,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0679",
+    "name": "Simpson, Matthew",
+    "details": "Allen Lance Bdr. 1603474 Royal Artillery",
+    "sourceRow": 680,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0680",
+    "name": "Simpson, Thomas",
+    "details": "Lance Sergeant 6201485 Middlesex",
+    "sourceRow": 681,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0681",
+    "name": "Sinclair, Frederick",
+    "details": "L. Private 6201225 Middlesex",
+    "sourceRow": 682,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0682",
+    "name": "Singleton, Thomas",
+    "details": "Lance Sergeant 1868579 Royal Engineers",
+    "sourceRow": 683,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0683",
+    "name": "Skinner, John",
+    "details": "Corporal 3054151 Royal Scots",
+    "sourceRow": 684,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0684",
+    "name": "Smale, Albert",
+    "details": "Edward Signalman C/J 37525 Royal Navy",
+    "sourceRow": 685,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0685",
+    "name": "Smalley, Frank",
+    "details": "Bandsman 6201403 Middlesex",
+    "sourceRow": 686,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0686",
+    "name": "Smith, Albert",
+    "details": "Edward Gunner 1712260 Royal Artillery",
+    "sourceRow": 687,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0687",
+    "name": "Smith, Ernest",
+    "details": "Alexander Sergeant 2029653 Kiddlesex",
+    "sourceRow": 688,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0688",
+    "name": "Smith, Frederick",
+    "details": "William Gunner 856075 Royal Artillery",
+    "sourceRow": 689,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0689",
+    "name": "Smith, John",
+    "details": "Brazier Gunner 556398 Hong Kong & Singapore Royal Artillery",
+    "sourceRow": 690,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0690",
+    "name": "Smith, John",
+    "details": "Peter Gunner 847769 Royal Artillery",
+    "sourceRow": 691,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0691",
+    "name": "Smith, Leslie",
+    "details": "Frank Lance Corp. 1871507 Royal Engineers",
+    "sourceRow": 692,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0692",
+    "name": "Smith, Leslie",
+    "details": "Ivor Sergeant -853737 Royal Artillery",
+    "sourceRow": 693,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0693",
+    "name": "Smith, Matthew",
+    "details": "PSM 2977171 Royal Scots",
+    "sourceRow": 694,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0694",
+    "name": "Smith, Patrick",
+    "details": "Corporal 3048063 Royal Scots",
+    "sourceRow": 695,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0695",
+    "name": "Spall, Arthur",
+    "details": "Ernest Private 6202929 Middlesex",
+    "sourceRow": 696,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0696",
+    "name": "Spare, Dermot",
+    "details": "Corporal 2319390 Royal Corps of Signals",
+    "sourceRow": 697,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0697",
+    "name": "Sparkes, John",
+    "details": "Charles Gunner 851848 Royal Artillery",
+    "sourceRow": 698,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0698",
+    "name": "Spence, John",
+    "details": "Frederick Lance Sergeant 1871927 Royal Engineers",
+    "sourceRow": 699,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0699",
+    "name": "Spencer, Geoffrey",
+    "details": "W. Lance Corp. 1874667 Royal Engineers",
+    "sourceRow": 700,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0700",
+    "name": "Spencer, Reginald",
+    "details": "Charles - Sapper 1879351 Royal Engineers",
+    "sourceRow": 701,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0701",
+    "name": "Spiers, George",
+    "details": "Edward - Private 6214370 Middlesex",
+    "sourceRow": 702,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0702",
+    "name": "Stancer, Frank",
+    "details": "Lewis - Lieutenant 184087 Royal Scots",
+    "sourceRow": 703,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0703",
+    "name": "Stanford, Frederick",
+    "details": "CSM 6908612 Royal Scots",
+    "sourceRow": 704,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0704",
+    "name": "Stanners, Adam",
+    "details": "Ramsey Private -3054521 Royal Scots",
+    "sourceRow": 705,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0705",
+    "name": "Steed, Thomas",
+    "details": "S.B.A. C/SR59 Royal Navy",
+    "sourceRow": 706,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0706",
+    "name": "Steele, William",
+    "details": "Ernest - Private 6213589 Middlesex",
+    "sourceRow": 707,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0707",
+    "name": "Stemp, Reginald",
+    "details": "Stanley Gunner 1712269 Royal Artillery",
+    "sourceRow": 708,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0708",
+    "name": "Stewart, Forbes",
+    "details": "Piper 3053467 Royal Scots",
+    "sourceRow": 709,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0709",
+    "name": "Stewart William Private 6202990 Middlesex",
+    "details": "",
+    "sourceRow": 710,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0710",
+    "name": "Stewart, William",
+    "details": "G. Corporal - 3211328 Royal Scots",
+    "sourceRow": 711,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0711",
+    "name": "Stickley, Thomas",
+    "details": "Private 6195813 Middlesex",
+    "sourceRow": 712,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0712",
+    "name": "Stobbart, John",
+    "details": "Douglas Gunner 872643 Royal Artillery",
+    "sourceRow": 713,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0713",
+    "name": "Stocker, James",
+    "details": "Lawrence Gunner 856855 Royal Artillery",
+    "sourceRow": 714,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0714",
+    "name": "Stoker, Ralph",
+    "details": "William E.R.A. lst Class P/190 ED Royal Navy",
+    "sourceRow": 715,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0715",
+    "name": "Stone, George",
+    "details": "Frederick Bombardier 860091 Royal Artillery",
+    "sourceRow": 716,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0716",
+    "name": "Stone, Thomas",
+    "details": "John Leading Stoker D/KX 94034 Royal Navy",
+    "sourceRow": 717,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0717",
+    "name": "Stott, James",
+    "details": "Black Corporal 2323463 Royal Corps of Signals",
+    "sourceRow": 718,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0718",
+    "name": "Sturdy, Patrick",
+    "details": "Jospeh Sergeant 6201477 Middlesex",
+    "sourceRow": 719,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0719",
+    "name": "Suggitt, Robert",
+    "details": "Signalman 2351049 Royal Corps of Signals",
+    "sourceRow": 720,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0720",
+    "name": "Sumner, William",
+    "details": "BOMS 818673 Royal Artillery",
+    "sourceRow": 721,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0721",
+    "name": "Sweeney, Daniel",
+    "details": "C. Supply Assistant P/M 37259 Royal Navy",
+    "sourceRow": 722,
+    "letter": "S"
+  },
+  {
+    "id": "lm-0722",
+    "name": "Tait, Alexander",
+    "details": "Private 6202334 Middlesex",
+    "sourceRow": 723,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0723",
+    "name": "Tait, Robert",
+    "details": "- Private 3063568 Royal Scots",
+    "sourceRow": 724,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0724",
+    "name": "Talks, Vernon",
+    "details": "Dvr 2324091 Royal Corps of Signale",
+    "sourceRow": 725,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0725",
+    "name": "Tarner, John",
+    "details": "Norman Corporal 6200730 Middlesex",
+    "sourceRow": 726,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0726",
+    "name": "Taylor, Alec",
+    "details": "Private 6207790 Middlesex",
+    "sourceRow": 727,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0727",
+    "name": "Taylor, Gerald",
+    "details": "Francis Sergeant 7536269 Royal Army Dental Corps",
+    "sourceRow": 728,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0728",
+    "name": "Taylor, Norman",
+    "details": "Gunner 861724 Royal Artillery",
+    "sourceRow": 729,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0729",
+    "name": "Taylor, Sydney",
+    "details": "George Master Mariner - Merchant Navy",
+    "sourceRow": 730,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0730",
+    "name": "Taylor, Sydney",
+    "details": "John Signalman D/SSX 33879 Royal Navy",
+    "sourceRow": 731,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0731",
+    "name": "Thackeray, Samuel",
+    "details": "Robert Gunner 850564 Royal Artillery",
+    "sourceRow": 732,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0732",
+    "name": "Thomas, Alfred",
+    "details": "Llewellyn Sapper. 1873659 Royal Engineers",
+    "sourceRow": 733,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0733",
+    "name": "Thomas, Cyril",
+    "details": "Private 6202751- Middlesex",
+    "sourceRow": 734,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0734",
+    "name": "Thomas, Edwin",
+    "details": "Gunner 872633 Royal Artillery",
+    "sourceRow": 735,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0735",
+    "name": "Thomas, Jack",
+    "details": "Private 6200963 Middlesex",
+    "sourceRow": 736,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0736",
+    "name": "Thomas, Jack",
+    "details": "Henry Private 6201172 Middlesex",
+    "sourceRow": 737,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0737",
+    "name": "Thompson, Frederick",
+    "details": "John Lance Bdr. 860782 Royal Artillery",
+    "sourceRow": 738,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0738",
+    "name": "Thompson, William",
+    "details": "Corporal 1871390 Royal Engineers",
+    "sourceRow": 739,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0739",
+    "name": "Thomson, Alexander",
+    "details": "Private 2877781 Royal Scots",
+    "sourceRow": 740,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0740",
+    "name": "Thomson, Andrew",
+    "details": "Private 3055945 Royal Scots",
+    "sourceRow": 741,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0741",
+    "name": "Thomson, David",
+    "details": "Haston Private 3051845 Royal Scots",
+    "sourceRow": 742,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0742",
+    "name": "Thorn, Ronald",
+    "details": "Alfred Sapper 1871903 Royal Engineers",
+    "sourceRow": 743,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0743",
+    "name": "Thrush, James",
+    "details": "Waters Gunner 1715110 Royal Artillery",
+    "sourceRow": 744,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0744",
+    "name": "Tivey, Richard",
+    "details": "John Private 6213111 Middlesex",
+    "sourceRow": 745,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0745",
+    "name": "Tomlinson, John",
+    "details": "Bramley Corporal 2322410 Royal Corps of Signals",
+    "sourceRow": 746,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0746",
+    "name": "Tooley, Michael",
+    "details": "Lance Bdr. 1040797 Royal Artillery",
+    "sourceRow": 747,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0747",
+    "name": "Townsend, George",
+    "details": "Gunner 2574607 Royal Artillery",
+    "sourceRow": 748,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0748",
+    "name": "Tozer, Stanley",
+    "details": "Herbert Commissioned Shipwright- Royal Navy",
+    "sourceRow": 749,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0749",
+    "name": "Trinder, George",
+    "details": "ROMS 3049838 Royal Scots",
+    "sourceRow": 750,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0750",
+    "name": "Tucker, Joseph",
+    "details": "Henry Private 6202940 Middlesex",
+    "sourceRow": 751,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0751",
+    "name": "Tunmer, William",
+    "details": "Arthur Bandsman 6199244- Middlesex",
+    "sourceRow": 752,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0752",
+    "name": "Turnbull, James",
+    "details": "Sapper 1873561 Royal Engineers",
+    "sourceRow": 753,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0753",
+    "name": "Turner, Frank",
+    "details": "Sapper 2040931 Royal Engineers",
+    "sourceRow": 754,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0754",
+    "name": "Turner, William",
+    "details": "Arthur Stoker ist Class P/EX 109310 Royal Navy",
+    "sourceRow": 755,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0755",
+    "name": "Twomey, Wilfred",
+    "details": "Ray Sapper 1873830 Royal Engineers",
+    "sourceRow": 756,
+    "letter": "T"
+  },
+  {
+    "id": "lm-0756",
+    "name": "Upton, Edward",
+    "details": "George QMS 1866078 Royal Engineers",
+    "sourceRow": 757,
+    "letter": "U"
+  },
+  {
+    "id": "lm-0757",
+    "name": "Valentine, George",
+    "details": "F.W. Able Seaman P/J 20240 Royal Navy",
+    "sourceRow": 758,
+    "letter": "V"
+  },
+  {
+    "id": "lm-0758",
+    "name": "Valentine, Roland",
+    "details": "Edward Private 6311128 Middlesex",
+    "sourceRow": 759,
+    "letter": "V"
+  },
+  {
+    "id": "lm-0759",
+    "name": "Vallance, George",
+    "details": "William Private 2216490 Middlesex",
+    "sourceRow": 760,
+    "letter": "V"
+  },
+  {
+    "id": "lm-0760",
+    "name": "Viotto, Joseph",
+    "details": "Gunner 847011 Royal Artillery",
+    "sourceRow": 761,
+    "letter": "V"
+  },
+  {
+    "id": "lm-0761",
+    "name": "Waddington, Wilfred",
+    "details": "G. Gunner 851194 Royal Artillery",
+    "sourceRow": 762,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0762",
+    "name": "Wakefield, Joseph",
+    "details": "W. Private 4973727 Royal Scots",
+    "sourceRow": 763,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0763",
+    "name": "Wakeham, Ernest",
+    "details": "William Clerk, Naval Yard HK一 Civilian",
+    "sourceRow": 764,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0764",
+    "name": "Walker, Frederick",
+    "details": "Charles Sergeant 6199899 Middlesex",
+    "sourceRow": 765,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0765",
+    "name": "Walker, Leighton",
+    "details": "William Major 38495 Royal Scote",
+    "sourceRow": 766,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0766",
+    "name": "Walker, William",
+    "details": "Sergeant 2874626 Royal Scots",
+    "sourceRow": 767,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0767",
+    "name": "Wallace, Marner",
+    "details": "Gunner 856113 Royal Artillery",
+    "sourceRow": 768,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0768",
+    "name": "Walters, John",
+    "details": "Private 3054946 Royal Scots",
+    "sourceRow": 769,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0769",
+    "name": "Warburton, John",
+    "details": "Gunner 1492565 Royal Artillery",
+    "sourceRow": 770,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0770",
+    "name": "Ward, Bernard",
+    "details": "M.J. Gunner 845291 Royal Artillery",
+    "sourceRow": 771,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0771",
+    "name": "Warder, Alexander",
+    "details": "C. Lance Sergeant 1061893 Royal Artillery",
+    "sourceRow": 772,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0772",
+    "name": "Warren, Christopher",
+    "details": "Signalman 2330321 Royal Corps of Signals",
+    "sourceRow": 773,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0773",
+    "name": "Waters, Robert",
+    "details": "Edward Private 6213557-Middlesex",
+    "sourceRow": 774,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0774",
+    "name": "Wathen, Walter",
+    "details": "Norman Lance Sergeant 2314610 Royal Corps of Signals",
+    "sourceRow": 775,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0775",
+    "name": "Watkins, John",
+    "details": "Patrick Private 6202797 Middlesex",
+    "sourceRow": 776,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0776",
+    "name": "Watson, Arthur",
+    "details": "Seaman Gunner Hong Kong Royal Naval Volunteer Reserve",
+    "sourceRow": 777,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0777",
+    "name": "Watson, Thomas",
+    "details": "Bombardier 826539 Royal Artillery",
+    "sourceRow": 778,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0778",
+    "name": "Weaver, John",
+    "details": "Douglas H. Lance Corp. 6201811 Middlesex",
+    "sourceRow": 779,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0779",
+    "name": "Webb, Donald",
+    "details": "Sick Berth Att. D/MX 57578 Royal Navy",
+    "sourceRow": 780,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0780",
+    "name": "Webb, Sidney",
+    "details": "Able Seaman C/J110817 Royal Navy",
+    "sourceRow": 781,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0781",
+    "name": "Webster, Allan",
+    "details": "Private 4191829 Middlesex",
+    "sourceRow": 782,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0782",
+    "name": "Webster, George",
+    "details": "Gunner 847445 Royal Artillery",
+    "sourceRow": 783,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0783",
+    "name": "Webster, George",
+    "details": "Private 6201463 Middlesex",
+    "sourceRow": 784,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0784",
+    "name": "Weeks, Douglas",
+    "details": "Reginald Signalman 2324122 Royal Corps of Signals",
+    "sourceRow": 785,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0785",
+    "name": "Wellington, Richard",
+    "details": "H. BSM 1425771 Royal Artillery",
+    "sourceRow": 786,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0786",
+    "name": "Wells, William",
+    "details": "George Bombardier 1058220 Royal Artillery",
+    "sourceRow": 787,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0787",
+    "name": "Welah, James",
+    "details": "Blaney Private 3054597 Royal Scots",
+    "sourceRow": 788,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0788",
+    "name": "Weston, John",
+    "details": "William Lance Sergeant 1863657 Royal Engineers",
+    "sourceRow": 789,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0789",
+    "name": "Wexham, Robert",
+    "details": "Martin Warrant Supply Officer - Royal Navy",
+    "sourceRow": 790,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0790",
+    "name": "Whelan, William",
+    "details": "Lance Sergeant 1867404 Royal Engineers",
+    "sourceRow": 791,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0791",
+    "name": "White, Ralph",
+    "details": "James Able Seaman P/JX 146392 Royal Navy",
+    "sourceRow": 792,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0792",
+    "name": "White, Robert",
+    "details": "Drummer 3054849 Royal Scots",
+    "sourceRow": 793,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0793",
+    "name": "Whitefield, Charles",
+    "details": "A. Sergeant 2318017 Royal Corps of Signals",
+    "sourceRow": 794,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0794",
+    "name": "Whitehead, Arthur",
+    "details": "F. Gunner 1866939 Royal Artillery",
+    "sourceRow": 795,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0795",
+    "name": "Whitehouse, Herbert",
+    "details": "Private 6201205 Middlesex.",
+    "sourceRow": 796,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0796",
+    "name": "Whitham, James",
+    "details": "Percival Lieutenant 221695 Middlesex",
+    "sourceRow": 797,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0797",
+    "name": "Wigzell, Wallace",
+    "details": "Frank CSM 2311126 Royal Corps of Signals",
+    "sourceRow": 798,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0798",
+    "name": "Williams, Frederick",
+    "details": "Ivor Lance Bår. 1492580 Royal Artillery",
+    "sourceRow": 799,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0799",
+    "name": "Williams, Harry",
+    "details": "Edward I. Ordinary CoderD/208165 Royal Navy",
+    "sourceRow": 800,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0800",
+    "name": "Williams, Ronald",
+    "details": "F. Gunner 1427413 Royal Artillery",
+    "sourceRow": 801,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0801",
+    "name": "Williams, Thomas",
+    "details": "Alun Sapper 1870215 Royal Engineers",
+    "sourceRow": 802,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0802",
+    "name": "Williamson, James",
+    "details": "Private 3054063 Royal Scots",
+    "sourceRow": 803,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0803",
+    "name": "Willis, Francis",
+    "details": "Lance Corp. 2321824 Royal Corps of Signals",
+    "sourceRow": 804,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0804",
+    "name": "Wilson, Arthur",
+    "details": "Stanley Gunner 868801 Royal Artillery",
+    "sourceRow": 805,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0805",
+    "name": "Wilson, Charles",
+    "details": "Edward Lance Corp. 3054164 Royal Scots",
+    "sourceRow": 806,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0806",
+    "name": "Wilson, John",
+    "details": "Campbell L. Telegraphist P/WRX489 Royal Navy",
+    "sourceRow": 807,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0807",
+    "name": "Wilson, William",
+    "details": "Eric BSM 1424207 Royal Artillery",
+    "sourceRow": 808,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0808",
+    "name": "Withington, Henry",
+    "details": "Bombardier 5245673 Royal Artillery",
+    "sourceRow": 809,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0809",
+    "name": "Witty, Herbert",
+    "details": "Charles Lance Corp. 6202383 Middlesex",
+    "sourceRow": 810,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0810",
+    "name": "Wood, Lawrence",
+    "details": "Arthur Lieutenant 149465 Middlesex",
+    "sourceRow": 811,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0811",
+    "name": "Wooldridge, Edward",
+    "details": "Gunner 843519 Royal Artillery",
+    "sourceRow": 812,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0812",
+    "name": "Woollcott, Edgar",
+    "details": "Joseph Sapper 1925110 Royal Engineers",
+    "sourceRow": 813,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0813",
+    "name": "Woolley, Bertram",
+    "details": "- Private 6200754 Middlesex",
+    "sourceRow": 814,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0814",
+    "name": "Woolwright, Alfred",
+    "details": "Lance Sergeant 3054082 Royal Scots",
+    "sourceRow": 815,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0815",
+    "name": "Wordley, Ernest",
+    "details": "George Private 7519158 Royal Army Medical Corps",
+    "sourceRow": 816,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0816",
+    "name": "Wyllie, william",
+    "details": "Private 3050493 Royal Scots",
+    "sourceRow": 817,
+    "letter": "W"
+  },
+  {
+    "id": "lm-0817",
+    "name": "Yeoman, Herbert",
+    "details": "George Gunner 851690 Royal Artillery",
+    "sourceRow": 818,
+    "letter": "Y"
+  }
+]

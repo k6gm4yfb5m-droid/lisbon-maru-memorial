@@ -1,0 +1,53 @@
+name: Check and deploy independent website
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm run install:ci
+      - run: npx tsc --noEmit
+      - run: npm run build:cloudflare
+      - run: npm run test:cloudflare
+
+  deploy:
+    needs: check
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && vars.CLOUDFLARE_DEPLOY_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: production
+    concurrency:
+      group: memorial-production
+      cancel-in-progress: false
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      MEMORIAL_DB_ID: ${{ vars.MEMORIAL_DB_ID }}
+      MEMORIAL_DB_NAME: ${{ vars.MEMORIAL_DB_NAME }}
+      MEMORIAL_BUCKET_NAME: ${{ vars.MEMORIAL_BUCKET_NAME }}
+      MEMORIAL_WORKER_NAME: ${{ vars.MEMORIAL_WORKER_NAME }}
+      MEMORIAL_DOMAIN: ${{ vars.MEMORIAL_DOMAIN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm run install:ci
+      - run: npm run check:cloudflare
+      - run: npm run build:cloudflare
+      - run: npm run db:migrate:cloudflare
+      - run: npm run deploy:cloudflare
