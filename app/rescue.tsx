@@ -28,6 +28,16 @@ const routes=mapPlaces.slice(0,2).map(place=>{
 function RescueDotChart({count,color,label,run,active}:{count:number;color:string;label:string;run:number;active:boolean}){
   const ref=useRef<SVGSVGElement>(null);
   const [visible,setVisible]=useState(false);
+  const [columns,setColumns]=useState(()=>Math.ceil(Math.sqrt(count*2)));
+  useEffect(()=>{
+    const svg=ref.current;if(!svg||typeof ResizeObserver==="undefined")return;
+    const observer=new ResizeObserver(([entry])=>{
+      const {width,height}=entry.contentRect;if(width<=0||height<=0)return;
+      const aspect=Math.max(1.6,Math.min(3.5,width/height));
+      setColumns(Math.ceil(Math.sqrt(count*aspect)));
+    });
+    observer.observe(svg);return()=>observer.disconnect();
+  },[count]);
   const [animationRun,setAnimationRun]=useState<number|null>(null);
   useEffect(()=>{
     const svg=ref.current;if(!svg)return;
@@ -37,9 +47,11 @@ function RescueDotChart({count,color,label,run,active}:{count:number;color:strin
   },[]);
   // Queue an off-screen selection until its chart is visible; scrolling alone never replays it.
   useEffect(()=>{if(active&&visible)setAnimationRun(run);},[active,visible,run]);
-  const rows=Math.ceil(count/24),top=(168-rows*9)/2+4.5;
-  return <svg ref={ref} viewBox="0 0 320 168" className="rescue-dot-chart" role="img" aria-hidden={!active} aria-label={label} data-animation={animationRun===null ? "waiting" : "started"} data-animation-run={animationRun}>
-    <g key={animationRun??"waiting"} className="rescue-dot-appearance">{Array.from({length:count},(_,i)=><circle key={i} cx={22+(i%24)*12} cy={top+Math.floor(i/24)*9} r={3.3} fill={color} style={{animationDelay:`${i/Math.max(1,count-1)*260}ms`}}/>)}</g>
+  // Fit the grid to the fixed chart area so dots stay legible on narrow cards.
+  const rows=Math.ceil(count/columns),spacing=12,inset=8;
+  const width=(columns-1)*spacing+inset*2,height=(rows-1)*spacing+inset*2;
+  return <svg ref={ref} viewBox={`0 0 ${width} ${height}`} className="rescue-dot-chart" role="img" aria-hidden={!active} aria-label={label} data-animation={animationRun===null ? "waiting" : "started"} data-animation-run={animationRun}>
+    <g key={animationRun??"waiting"} className="rescue-dot-appearance">{Array.from({length:count},(_,i)=><circle key={i} cx={inset+(i%columns)*spacing} cy={inset+Math.floor(i/columns)*spacing} r={4.2} fill={color} style={{animationDelay:`${i/Math.max(1,count-1)*260}ms`}}/>)}</g>
   </svg>;
 }
 export default function FishermenRescue({locale}:{locale:Locale}){
