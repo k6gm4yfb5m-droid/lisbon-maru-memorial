@@ -226,7 +226,7 @@ html[dir=rtl] .ritual-light{inset:0 35% 0 0}
 
 /* Square rescue cards overlap at fixed dimensions; Embla alone owns track movement. */
 .rescue-carousel{--rescue-card-size:clamp(260px,40vw,420px);--rescue-card-overlap:calc(var(--rescue-card-size)*-.22);min-width:0;max-width:calc(var(--rescue-card-size)*2.08);margin-inline:auto}
-.rescue-carousel-viewport{overflow:hidden;touch-action:pan-y pinch-zoom;padding-block:14px;isolation:isolate}
+.rescue-carousel-viewport{position:relative;overflow:hidden;touch-action:pan-y pinch-zoom;padding-block:14px;isolation:isolate}
 .rescue-carousel .rescue-charts{display:flex;gap:0;grid-template-columns:none;direction:ltr;align-items:stretch;margin:0;transform:translate3d(calc((100% - var(--rescue-card-size))/2),0,0)}
 .rescue-carousel .rescue-chart{position:relative;flex:0 0 var(--rescue-card-size);min-width:0;height:var(--rescue-card-size);margin:0;margin-inline-end:var(--rescue-card-overlap);border:0;border-radius:0;background:none;box-shadow:none;overflow:visible;opacity:.32;z-index:1;transition:opacity .3s var(--ceremony-ease);cursor:grab}
 .rescue-carousel .rescue-chart[data-active=true]{opacity:1;z-index:2}
