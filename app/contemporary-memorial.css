@@ -249,3 +249,7 @@ html[dir=rtl] .ritual-light{inset:0 35% 0 0}
 html[dir=rtl] .rescue-carousel .rescue-chart-button{direction:rtl}
 @media(max-width:700px){.rescue-carousel{--rescue-card-size:clamp(240px,68vw,340px);--rescue-card-lower:12px}.rescue-carousel .rescue-chart-button{padding:20px;border-radius:11px}.rescue-carousel .rescue-chart-value strong{font-size:44px}.rescue-carousel .rescue-chart h4{font-size:16px}.rescue-carousel-controls{gap:12px}.rescue-carousel-controls>span{min-width:0;flex:1}.rescue-carousel .rescue-dot-key{font-size:12px}}
 @media(prefers-reduced-motion:reduce){.rescue-carousel .rescue-chart,.rescue-carousel .rescue-chart-button{transition:none}}
+
+/* Keep long translated descriptions outside the ring's central opening. */
+.fate-chart .donut-description{max-width:32ch;margin:0 auto;text-align:center;font-size:14px;line-height:1.65;color:#d9e5e3;overflow-wrap:anywhere}
+.fate-chart .donut-exact{margin:6px 0 18px;line-height:1.7}

@@ -81,8 +81,9 @@ export default function HistoricalData({locale, recordCount}: {locale: Locale; r
               <circle className="ring-hit-target" cx="130" cy="130" r="105" fill="none" stroke="transparent" strokeWidth="44" pathLength={figures.rescued} strokeDasharray="12 372" transform="rotate(-94.21875 130 130)"/>
             </g>
           </svg>
-          <div key={fateAppearance??"waiting"} className="donut-label" data-animation={fateAppearance===null?"waiting":"started"} aria-hidden="true"><strong>&lt;1%</strong><span>{t.escapedShare}</span></div>
+          <div key={fateAppearance??"waiting"} className="donut-label" data-animation={fateAppearance===null?"waiting":"started"} aria-hidden="true"><strong>&lt;1%</strong></div>
         </div>
+        <p className="donut-description">{t.escapedShare}</p>
         <p className="donut-exact">{t.exactShare}</p>
         <ul className="chart-legend">{outcomes.map(outcome => <li key={outcome.id}><button type="button" data-category={outcome.id} {...controls("fate",outcome.id,`${outcome.label} · ${formatNumber(outcome.count,locale)} · ${formatPercent(outcome.id === "escaped" ? .78 : 99.22,locale)}`)}><span className={`legend-dot chart-${outcome.color}`} aria-hidden="true"/><span>{outcome.label}</span><strong>{outcome.count}</strong></button></li>)}</ul>
         <p className="sr-only" role="status">{selectedOutcome ? formatText(t.selected,{label:selectedOutcome.label,count:selectedOutcome.count,percent:formatPercent(selectedOutcome.id === "escaped" ? .78 : 99.22,locale)}) : t.allVisible}</p>

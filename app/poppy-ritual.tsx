@@ -52,13 +52,19 @@ export default function PoppyRitual({locale}:{locale:Locale}){
   gesture.current={id:event.pointerId,x:event.clientX,y:event.clientY,cx:r.left+r.width/2,cy:r.top+r.height/2,halfWidth:r.width/2,halfHeight:r.height/2,scale:r.width/event.currentTarget.offsetWidth||1,moved:false};
   ignoreClick.current=false;event.currentTarget.setPointerCapture(event.pointerId);setDragging(true);
  }
- function move(event:PointerEvent<HTMLButtonElement>){const start=gesture.current;if(!start||start.id!==event.pointerId)return;const x=event.clientX-start.x,y=event.clientY-start.y;start.moved||=Math.hypot(x,y)>3;setOffset({x:x/start.scale,y:y/start.scale});setOver(inside(start.cx+x,start.cy+y,start.halfWidth,start.halfHeight));}
+ function withinPlacement(cx:number,cy:number){
+  const r=drop.current?.getBoundingClientRect();
+  // Insertion is forgiving; withdrawal only needs to leave the centre of the silhouette.
+  return !!r&&Math.abs(cx-(r.left+r.width/2))<=r.width*.25&&Math.abs(cy-(r.top+r.height/2))<=r.height*.25;
+ }
+ function move(event:PointerEvent<HTMLButtonElement>){const start=gesture.current;if(!start||start.id!==event.pointerId)return;const x=event.clientX-start.x,y=event.clientY-start.y;start.moved||=Math.hypot(x,y)>3;setOffset({x:x/start.scale,y:y/start.scale});setOver(phase==='ready'?inside(start.cx+x,start.cy+y,start.halfWidth,start.halfHeight):withinPlacement(start.cx+x,start.cy+y));}
  function end(event:PointerEvent<HTMLButtonElement>,cancel=false){
   const start=gesture.current;if(!start||start.id!==event.pointerId)return;
   gesture.current=null;ignoreClick.current=start.moved||cancel;setDragging(false);setOffset({x:0,y:0});setOver(false);
   if(cancel||!start.moved)return;
-  const hit=inside(start.cx+event.clientX-start.x,start.cy+event.clientY-start.y,start.halfWidth,start.halfHeight);
-  if(hit){if(phase==='ready')offer();}else if(phase!=='ready')reset();
+  const cx=start.cx+event.clientX-start.x,cy=start.cy+event.clientY-start.y;
+  if(phase==='ready'){if(inside(cx,cy,start.halfWidth,start.halfHeight))offer();}
+  else if(!withinPlacement(cx,cy))reset();
  }
  return <section id="poppy-ritual" className="poppy-ritual" aria-labelledby="poppy-ritual-title">
   <div className="poppy-heading"><div className="eyebrow">{t.eyebrow}</div><h2 id="poppy-ritual-title">{t.title}</h2><p>{t.intro}</p></div>
