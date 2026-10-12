@@ -253,3 +253,6 @@ html[dir=rtl] .rescue-carousel .rescue-chart-button{direction:rtl}
 /* Keep long translated descriptions outside the ring's central opening. */
 .fate-chart .donut-description{max-width:32ch;margin:0 auto;text-align:center;font-size:14px;line-height:1.65;color:#d9e5e3;overflow-wrap:anywhere}
 .fate-chart .donut-exact{margin:6px 0 18px;line-height:1.7}
+
+.water-ripple-layer{position:fixed;top:0;left:0;z-index:4000;pointer-events:none!important;user-select:none;contain:strict}
+@media(prefers-reduced-motion:reduce){.water-ripple-layer{display:none}}
