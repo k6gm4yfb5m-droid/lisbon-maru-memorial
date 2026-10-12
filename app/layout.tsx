@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import { languageTags, languageDirections, validLocale } from "@/lib/i18n";
 import ScreenFit from "./screen-fit";
-import WaterRipples from "./water-ripples";
 import "./globals.css";
 import "./contemporary-memorial.css";
 export const metadata: Metadata = {
@@ -13,5 +12,5 @@ export const metadata: Metadata = {
 export default async function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
  const saved = (await cookies()).get("lm_language")?.value;
  const locale = validLocale(saved) ? saved : "zh";
- return <html dir={languageDirections[locale]} lang={languageTags[validLocale(saved) ? saved : "zh"]}><body><ScreenFit/>{children}<WaterRipples/></body></html>;
+ return <html dir={languageDirections[locale]} lang={languageTags[validLocale(saved) ? saved : "zh"]}><body><ScreenFit/>{children}</body></html>;
 }
