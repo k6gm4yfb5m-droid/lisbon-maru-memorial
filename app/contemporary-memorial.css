@@ -225,13 +225,13 @@ html[dir=rtl] .ritual-light{inset:0 35% 0 0}
 @media(prefers-reduced-motion:reduce){.poppy-field[data-phase=lighting] .poppy-field-flower{animation:none;opacity:1}.poppy-drag-flower,.poppy-drop-target>svg{transition:none}}
 
 /* Square rescue cards overlap at fixed dimensions; Embla alone owns track movement. */
-.rescue-carousel{--rescue-card-size:clamp(260px,40vw,420px);--rescue-card-overlap:calc(var(--rescue-card-size)*-.22);min-width:0;max-width:calc(var(--rescue-card-size)*2.08);margin-inline:auto}
-.rescue-carousel-viewport{position:relative;overflow:hidden;touch-action:pan-y pinch-zoom;padding-block:14px;isolation:isolate}
+.rescue-carousel{--rescue-card-size:clamp(260px,40vw,420px);--rescue-card-overlap:calc(var(--rescue-card-size)*-.22);--rescue-card-lower:18px;min-width:0;max-width:calc(var(--rescue-card-size)*2.08);margin-inline:auto}
+.rescue-carousel-viewport{position:relative;overflow:hidden;touch-action:pan-y pinch-zoom;padding:14px 0 calc(14px + var(--rescue-card-lower));isolation:isolate}
 .rescue-carousel .rescue-charts{display:flex;gap:0;grid-template-columns:none;direction:ltr;align-items:stretch;margin:0;transform:translate3d(calc((100% - var(--rescue-card-size))/2),0,0)}
 .rescue-carousel .rescue-chart{position:relative;flex:0 0 var(--rescue-card-size);min-width:0;height:var(--rescue-card-size);margin:0;margin-inline-end:var(--rescue-card-overlap);border:0;border-radius:0;background:none;box-shadow:none;overflow:visible;opacity:.32;z-index:1;transition:opacity .3s var(--ceremony-ease);cursor:grab}
 .rescue-carousel .rescue-chart[data-active=true]{opacity:1;z-index:2}
-.rescue-carousel .rescue-chart-button{width:var(--rescue-card-size);height:var(--rescue-card-size);min-height:0;margin:0;padding:26px;direction:inherit;text-align:start;cursor:inherit;display:flex;flex-direction:column;box-sizing:border-box;border:1px solid #c9d5d3;border-radius:14px;background:#f6f9fb;overflow:hidden;transition:border-color .3s,background-color .3s}
-.rescue-carousel .rescue-chart[data-active=true] .rescue-chart-button{background:#e0e8ef;border-color:#aab9ac;box-shadow:0 9px 28px #18333c0a}
+.rescue-carousel .rescue-chart-button{width:var(--rescue-card-size);height:var(--rescue-card-size);min-height:0;margin:0;padding:26px;direction:inherit;text-align:start;cursor:inherit;display:flex;flex-direction:column;box-sizing:border-box;border:1px solid #c9d5d3;border-radius:14px;background:#f6f9fb;overflow:hidden;transform:translateY(var(--rescue-card-lower));transition:transform .3s var(--ceremony-ease),border-color .3s,background-color .3s}
+.rescue-carousel .rescue-chart[data-active=true] .rescue-chart-button{transform:translateY(0);background:#e0e8ef;border-color:#aab9ac;box-shadow:0 9px 28px #18333c0a}
 .rescue-carousel .rescue-chart-button:active{cursor:grabbing}
 .rescue-carousel .rescue-chart-value{width:100%;flex:none}
 .rescue-carousel .rescue-chart-value strong{font-size:54px;font-variant-numeric:tabular-nums}
@@ -239,13 +239,13 @@ html[dir=rtl] .ritual-light{inset:0 35% 0 0}
 .rescue-carousel .rescue-dot-chart{height:0;max-height:none;flex:1 1 0;min-height:0;margin:8px 0 12px;pointer-events:none}
 .rescue-carousel .rescue-dot-key{font-size:13px;flex:none}
 .rescue-carousel .rescue-chart[data-emphasis=muted] .rescue-dot-chart{opacity:1}
-/* Keep all statistics visible throughout a turn instead of replaying dot entrances. */
-.rescue-carousel .rescue-dot-appearance circle{animation:none!important;transform:none;opacity:1!important}
+/* Only the selected card reveals its animated dots; hidden charts keep their layout space. */
+.rescue-carousel .rescue-chart[data-active=false] .rescue-dot-chart{visibility:hidden}
 .rescue-carousel-controls{display:flex;justify-content:center;align-items:center;gap:18px;margin-top:8px}
 .rescue-carousel-controls>button{width:44px;height:44px;flex:none;display:grid;place-items:center;border:1px solid #c5d3dd;border-radius:50%;background:#f6f9fb;color:#28464d;cursor:pointer}
 .rescue-carousel-controls>button:hover{background:#dfe8ef;border-color:#9eafba}
 .rescue-carousel-controls>span{font-size:13px;color:#536b80;text-align:center;font-variant-numeric:tabular-nums;min-width:17em}
 .rescue-stat-detail{min-height:calc(5.7em + 32px)}
 html[dir=rtl] .rescue-carousel .rescue-chart-button{direction:rtl}
-@media(max-width:700px){.rescue-carousel{--rescue-card-size:clamp(240px,68vw,340px)}.rescue-carousel .rescue-chart-button{padding:20px;border-radius:11px}.rescue-carousel .rescue-chart-value strong{font-size:44px}.rescue-carousel .rescue-chart h4{font-size:16px}.rescue-carousel-controls{gap:12px}.rescue-carousel-controls>span{min-width:0;flex:1}.rescue-carousel .rescue-dot-key{font-size:12px}}
+@media(max-width:700px){.rescue-carousel{--rescue-card-size:clamp(240px,68vw,340px);--rescue-card-lower:12px}.rescue-carousel .rescue-chart-button{padding:20px;border-radius:11px}.rescue-carousel .rescue-chart-value strong{font-size:44px}.rescue-carousel .rescue-chart h4{font-size:16px}.rescue-carousel-controls{gap:12px}.rescue-carousel-controls>span{min-width:0;flex:1}.rescue-carousel .rescue-dot-key{font-size:12px}}
 @media(prefers-reduced-motion:reduce){.rescue-carousel .rescue-chart,.rescue-carousel .rescue-chart-button{transition:none}}

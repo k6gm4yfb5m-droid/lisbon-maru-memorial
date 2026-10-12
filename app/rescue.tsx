@@ -25,7 +25,7 @@ const routes=mapPlaces.slice(0,2).map(place=>{
   const [x,y]=place.point;
   return {id:place.id,color:place.color,d:place.id==="miaozihu" ? `M${x+8} ${y-6} C${x+40} ${y-140} ${wreck[0]-180} ${wreck[1]+30} ${wreck[0]-9} ${wreck[1]-2}` : `M${x+9} ${y} C${x+150} ${y+15} ${wreck[0]+50} ${wreck[1]+90} ${wreck[0]+3} ${wreck[1]+9}`};
 });
-function RescueDotChart({count,color,label,run}:{count:number;color:string;label:string;run:number}){
+function RescueDotChart({count,color,label,run,active}:{count:number;color:string;label:string;run:number;active:boolean}){
   const ref=useRef<SVGSVGElement>(null);
   const [visible,setVisible]=useState(false);
   const [animationRun,setAnimationRun]=useState<number|null>(null);
@@ -36,9 +36,9 @@ function RescueDotChart({count,color,label,run}:{count:number;color:string;label
     observer.observe(svg);return()=>observer.disconnect();
   },[]);
   // Queue an off-screen selection until its chart is visible; scrolling alone never replays it.
-  useEffect(()=>{if(visible)setAnimationRun(run);},[visible,run]);
+  useEffect(()=>{if(active&&visible)setAnimationRun(run);},[active,visible,run]);
   const rows=Math.ceil(count/24),top=(168-rows*9)/2+4.5;
-  return <svg ref={ref} viewBox="0 0 320 168" className="rescue-dot-chart" role="img" aria-label={label} data-animation={animationRun===null ? "waiting" : "started"} data-animation-run={animationRun}>
+  return <svg ref={ref} viewBox="0 0 320 168" className="rescue-dot-chart" role="img" aria-hidden={!active} aria-label={label} data-animation={animationRun===null ? "waiting" : "started"} data-animation-run={animationRun}>
     <g key={animationRun??"waiting"} className="rescue-dot-appearance">{Array.from({length:count},(_,i)=><circle key={i} cx={22+(i%24)*12} cy={top+Math.floor(i/24)*9} r={3.3} fill={color} style={{animationDelay:`${i/Math.max(1,count-1)*260}ms`}}/>)}</g>
   </svg>;
 }
@@ -60,7 +60,7 @@ export default function FishermenRescue({locale}:{locale:Locale}){
   },[place,mapOpen]);
   useEffect(()=>{
     if(!carouselApi)return;
-    const select=()=>{const index=carouselApi.selectedScrollSnap(),id=rescueMetrics[index].id;setActiveMetric(index);setMetric(id);};
+    const select=()=>{const index=carouselApi.selectedScrollSnap(),id=rescueMetrics[index].id;setActiveMetric(index);setMetric(id);setMetricRuns(current=>({...current,[id]:current[id]+1}));};
     select();carouselApi.on("select",select);
     return()=>{carouselApi.off("select",select);};
   },[carouselApi]);
@@ -98,7 +98,7 @@ export default function FishermenRescue({locale}:{locale:Locale}){
       return <figure key={item.id} className="rescue-chart" data-active={activeMetric===index} data-metric={item.id} data-emphasis={!metric ? "default" : metric===item.id ? "selected" : "muted"}>
         <button type="button" className="rescue-chart-button" aria-label={`${t.metricLabels[item.id]} · ${formatNumber(item.count,locale)}`} aria-pressed={metric===item.id} tabIndex={activeMetric===index?0:-1} onClick={()=>toggleMetric(item.id)}>
           <div className="rescue-chart-value"><Icon size={24} strokeWidth={1.2} aria-hidden="true"/><strong>{formatNumber(item.count,locale)}</strong></div><h4>{t.metricLabels[item.id]}</h4>
-          <RescueDotChart count={item.count} color={item.color} run={metricRuns[item.id]} label={`${t.metricLabels[item.id]} · ${formatNumber(item.count,locale)} · ${t.dotKeys[item.id]}`}/><span className="rescue-dot-key">{t.dotKeys[item.id]}</span>
+          <RescueDotChart active={activeMetric===index} count={item.count} color={item.color} run={metricRuns[item.id]} label={`${t.metricLabels[item.id]} · ${formatNumber(item.count,locale)} · ${t.dotKeys[item.id]}`}/><span className="rescue-dot-key">{t.dotKeys[item.id]}</span>
         </button>
       </figure>;
     })}</div></div>
