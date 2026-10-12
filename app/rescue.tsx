@@ -45,7 +45,7 @@ function RescueDotChart({count,color,label,run}:{count:number;color:string;label
 export default function FishermenRescue({locale}:{locale:Locale}){
   const t=rescueTranslations[locale],carouselText=rescueCarouselTranslations[locale],uid=useId().replace(/[^a-zA-Z0-9_-]/g,"");
   const [metric,setMetric]=useState<RescueMetricId|null>(null),[place,setPlace]=useState<RescuePlaceId|null>(null);
-  const [carouselRef,carouselApi]=useEmblaCarousel({align:"center",loop:true,direction:"ltr"});
+  const [carouselRef,carouselApi]=useEmblaCarousel({align:"center",loop:true,direction:"ltr",duration:28,skipSnaps:false});
   const [activeMetric,setActiveMetric]=useState(0);
   const [metricRuns,setMetricRuns]=useState<Record<RescueMetricId,number>>({fishermen:0,boats:0,sorties:0,rescued:0});
   const [mapOpen,setMapOpen]=useState(false),[globeVisible,setGlobeVisible]=useState(true),[autoEnter,setAutoEnter]=useState(true),[entryTarget,setEntryTarget]=useState<RescueEntry|null>(null);
@@ -60,7 +60,7 @@ export default function FishermenRescue({locale}:{locale:Locale}){
   },[place,mapOpen]);
   useEffect(()=>{
     if(!carouselApi)return;
-    const select=()=>{const index=carouselApi.selectedScrollSnap(),id=rescueMetrics[index].id;setActiveMetric(index);setMetric(id);setMetricRuns(current=>({...current,[id]:current[id]+1}));};
+    const select=()=>{const index=carouselApi.selectedScrollSnap(),id=rescueMetrics[index].id;setActiveMetric(index);setMetric(id);};
     select();carouselApi.on("select",select);
     return()=>{carouselApi.off("select",select);};
   },[carouselApi]);
