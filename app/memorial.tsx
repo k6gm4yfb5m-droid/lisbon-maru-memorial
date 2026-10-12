@@ -137,13 +137,14 @@ export default function Memorial({initialPersonId, initialLocale}: {initialPerso
   <a className="skip-link" href="#roll">{t.skip}</a>
   <header id="top" className={`site-header locale-${locale}`} dir={languageDirections[locale]}>
    <a className="brand" href="#top" aria-label={t.home}><Anchor strokeWidth={1.2}/><span>{t.brand}<small>{t.brandSubtitle}</small></span></a>
-   <nav aria-label={t.nav}><a href="#incident-background">{backgroundTranslations[locale].nav}</a><a href="#roll">{t.roll}</a><a href="#sinking-timeline">{timelineTranslations[locale].nav}</a><a href="#historical-data">{historicalTranslations[locale].nav}</a><a href="#ship-holds">{shipHoldTranslations[locale].nav}</a><a href="#geography">{geographyTranslations[locale].nav}</a><a href="#fishermen-rescue">{rescueTranslations[locale].nav}</a><a href="#event-topology">{topologyTranslations[locale].nav}</a><a href="#history">{t.history}</a><a href="#memory-archive">{archiveTranslations[locale].nav}</a><a href="#war-reflection">{reflectionTranslations[locale].nav}</a><a href="#poppy-ritual">{poppyTranslations[locale].nav}</a><a href="#visitor-reflections">{visitorReflectionTranslations[locale].nav}</a><a href="#sources">{t.sources}</a></nav><LanguageMenu locale={locale} onChange={changeLanguage}/>
+   <nav aria-label={t.nav}><a href="#geography">{geographyTranslations[locale].nav}</a><a href="#incident-background">{backgroundTranslations[locale].nav}</a><a href="#roll">{t.roll}</a><a href="#sinking-timeline">{timelineTranslations[locale].nav}</a><a href="#historical-data">{historicalTranslations[locale].nav}</a><a href="#ship-holds">{shipHoldTranslations[locale].nav}</a><a href="#fishermen-rescue">{rescueTranslations[locale].nav}</a><a href="#event-topology">{topologyTranslations[locale].nav}</a><a href="#history">{t.history}</a><a href="#memory-archive">{archiveTranslations[locale].nav}</a><a href="#war-reflection">{reflectionTranslations[locale].nav}</a><a href="#poppy-ritual">{poppyTranslations[locale].nav}</a><a href="#visitor-reflections">{visitorReflectionTranslations[locale].nav}</a><a href="#sources">{t.sources}</a></nav><LanguageMenu locale={locale} onChange={changeLanguage}/>
   </header>
   <main id="memorial-main" lang={languageTags[locale]} dir={languageDirections[locale]}>
    <section id="memorial-intro" className={`intro locale-${locale}`} aria-labelledby="memorial-heading">
     <RitualLight/><div className="intro-copy"><div className="eyebrow"><span/> {t.introEyebrow}</div><h1 id="memorial-heading">{t.hero[0]}<br/>{t.hero[1]}</h1><p>{t.subtitle}</p><div className="intro-rule"/><p className="intro-note">{t.intro[0]}<br/>{t.intro[1]}</p><div className="intro-actions"><a className="ceremony-link" href="#roll">{t.roll}<ArrowUpRight size={18}/></a><a className="ceremony-link secondary" href="#incident-background">{backgroundTranslations[locale].nav}<ChevronRight size={17}/></a></div></div>
     <div className="dedication"><Waves size={38} strokeWidth={1}/><p className="dedication-english">{t.dedication[0]}<br/>{t.dedication[1]}</p><span>{t.dedicatedTo}</span><div className="dedication-date">{t.date}<br/><span>{t.sea}</span></div><div className="dedication-coordinate"><span className="dedication-coordinate-label">{t.wreckCoordinate}</span><CoordinateTypewriter/></div></div>
    </section>
+   <Geography locale={locale}/>
    <IncidentBackground locale={locale}/>
    <section className="roll-section" id="roll" aria-labelledby="roll-title">
     <div className="section-heading"><div><div className="eyebrow">{t.rollEyebrow}</div><h2 id="roll-title">{t.rollHeading}</h2></div><p><strong>{records.length}</strong> {t.recordCount}<span>{t.clickPrompt}</span></p></div>
@@ -170,7 +171,6 @@ export default function Memorial({initialPersonId, initialLocale}: {initialPerso
    <SinkingTimeline locale={locale}/>
    <HistoricalData locale={locale} recordCount={records.length}/>
    <ShipHolds locale={locale}/>
-   <Geography locale={locale}/>
    <FishermenRescue locale={locale}/>
    <EventTopology locale={locale}/>
    <section className="history-section" id="history"><div><div className="eyebrow">{t.historyEyebrow}</div><h2>{t.historyHeading[0]}<br/>{t.historyHeading[1]}</h2><a href="https://www.lisbonmaru.org.uk/resource/html/Background%2Bto%2Bthe%2Bsinking%2Bof%2Bthe%2Blisbon%2Bmaru" target="_blank" rel="noreferrer">{t.historyLink}</a></div><div className="history-text"><p>{t.historyBody[0]}</p><p>{t.historyBody[1]}</p><span>{t.historySource}</span></div></section>

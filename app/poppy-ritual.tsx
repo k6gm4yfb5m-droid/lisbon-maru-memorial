@@ -1,10 +1,9 @@
 "use client";
 import { memo, useEffect, useId, useMemo, useRef, useState, type CSSProperties, type PointerEvent } from 'react';
-import { RotateCcw } from 'lucide-react';
 import FullscreenView from './fullscreen-view';
 import { numberLocales, type Locale } from '@/lib/i18n';
 import { poppyTranslations } from '@/lib/poppy-ritual';
-const total=828, duration=3400, cellWidth=32, cellHeight=40;
+const total=828, duration=3400, resetDelay=20000, cellWidth=32, cellHeight=40;
 type Phase='ready'|'lighting'|'complete';
 // Keep the two rounded red petals, black centre and green stem of the supplied drawing.
 function Flower(){return <><path d="M43 74h14v43a7 7 0 0 1-14 0Z" fill="var(--poppy-stem,#73bc6a)"/><ellipse cx="50" cy="30" rx="29" ry="25" fill="var(--poppy-petal,#ed1027)"/><ellipse cx="50" cy="54" rx="29" ry="28" fill="var(--poppy-petal,#ed1027)"/><circle cx="50" cy="44" r="11" fill="var(--poppy-centre,#080b0e)"/></>;}
@@ -17,10 +16,11 @@ const PoppyField=memo(function PoppyField({phase,label,onColumns}:{phase:Phase;l
  return <div ref={ref} className="poppy-field" data-phase={phase}><svg viewBox={`0 0 ${columns*cellWidth} ${Math.ceil(total/columns)*cellHeight}`} role="img" aria-label={label}><defs><symbol id={`poppy-${id}`} viewBox="15 0 70 126"><Flower/></symbol></defs>{flowers}</svg></div>;
 });
 export default function PoppyRitual({locale}:{locale:Locale}){
- const t=poppyTranslations[locale],drop=useRef<HTMLDivElement>(null),columns=useRef(46),[phase,setPhase]=useState<Phase>('ready'),[count,setCount]=useState(0),[dragging,setDragging]=useState(false),[over,setOver]=useState(false),[offset,setOffset]=useState({x:0,y:0});
- const gesture=useRef<{id:number;x:number;y:number;moved:boolean}|null>(null),ignoreClick=useRef(false);
+ const t=poppyTranslations[locale],drop=useRef<HTMLDivElement>(null),columns=useRef(46),[phase,setPhase]=useState<Phase>('ready'),[count,setCount]=useState(0),[dragging,setDragging]=useState(false),[over,setOver]=useState(false),[offset,setOffset]=useState({x:0,y:0}),[remaining,setRemaining]=useState(20);
+ const gesture=useRef<{id:number;x:number;y:number;cx:number;cy:number;halfWidth:number;halfHeight:number;scale:number;moved:boolean}|null>(null),ignoreClick=useRef(false);
  const onColumns=useRef((value:number)=>{columns.current=value;}).current;
- const offer=()=>{if(phase!=='ready')return;setPhase('lighting');setOver(false);setOffset({x:0,y:0});};
+ const reset=()=>{setPhase('ready');setCount(0);setRemaining(20);setOver(false);setOffset({x:0,y:0});};
+ const offer=()=>{if(phase!=='ready')return;setCount(0);setPhase('lighting');setOver(false);setOffset({x:0,y:0});};
  useEffect(()=>{
   if(phase!=='lighting')return;
   if(matchMedia('(prefers-reduced-motion: reduce)').matches){setCount(total);setPhase('complete');return;}
@@ -29,21 +29,48 @@ export default function PoppyRitual({locale}:{locale:Locale}){
   frame=requestAnimationFrame(tick);return()=>cancelAnimationFrame(frame);
  },[phase]);
  useEffect(()=>{const reset=()=>{ignoreClick.current=!!gesture.current;gesture.current=null;setDragging(false);setOver(false);setOffset({x:0,y:0});};window.addEventListener('blur',reset);return()=>window.removeEventListener('blur',reset);},[]);
- function inside(x:number,y:number){const r=drop.current?.getBoundingClientRect();return !!r&&x>=r.left+r.width*.18&&x<=r.right-r.width*.18&&y>=r.top&&y<=r.top+r.height*.92;}
- function down(event:PointerEvent<HTMLButtonElement>){if(phase!=='ready'||!event.isPrimary||(event.pointerType==='mouse'&&event.button!==0))return;gesture.current={id:event.pointerId,x:event.clientX,y:event.clientY,moved:false};ignoreClick.current=false;event.currentTarget.setPointerCapture(event.pointerId);setDragging(true);}
- function move(event:PointerEvent<HTMLButtonElement>){const start=gesture.current;if(!start||start.id!==event.pointerId)return;const x=event.clientX-start.x,y=event.clientY-start.y;start.moved||=Math.hypot(x,y)>6;setOffset({x,y});setOver(inside(event.clientX,event.clientY));}
- function end(event:PointerEvent<HTMLButtonElement>,cancel=false){const start=gesture.current;if(!start||start.id!==event.pointerId)return;gesture.current=null;ignoreClick.current=start.moved||cancel;setDragging(false);setOffset({x:0,y:0});setOver(false);if(!cancel&&start.moved&&inside(event.clientX,event.clientY))offer();}
+ // Start the next offering twenty seconds after the full field has lit up.
+ // A deadline also catches up correctly after the tab has been in the background.
+ useEffect(()=>{
+  if(phase!=='complete')return;
+  const deadline=Date.now()+resetDelay;
+  setRemaining(20);
+  const tick=()=>{const seconds=Math.max(0,Math.ceil((deadline-Date.now())/1000));setRemaining(seconds);if(!seconds&&!gesture.current){setPhase('ready');setCount(0);setOffset({x:0,y:0});}};
+  const interval=window.setInterval(tick,250),timeout=window.setTimeout(tick,resetDelay);
+  document.addEventListener('visibilitychange',tick);
+  return()=>{clearInterval(interval);clearTimeout(timeout);document.removeEventListener('visibilitychange',tick);};
+ },[phase]);
+ function inside(cx:number,cy:number,halfWidth:number,halfHeight:number){
+  const r=drop.current?.getBoundingClientRect();
+  // Compare the flower itself with the whole target, rather than a tiny pointer hotspot.
+  const padding=12;
+  return !!r&&cx+halfWidth*.55>=r.left-padding&&cx-halfWidth*.55<=r.right+padding&&cy+halfHeight*.55>=r.top-padding&&cy-halfHeight*.55<=r.bottom+padding;
+ }
+ function down(event:PointerEvent<HTMLButtonElement>){
+  if(!event.isPrimary||(event.pointerType==='mouse'&&event.button!==0))return;
+  const r=event.currentTarget.getBoundingClientRect();
+  gesture.current={id:event.pointerId,x:event.clientX,y:event.clientY,cx:r.left+r.width/2,cy:r.top+r.height/2,halfWidth:r.width/2,halfHeight:r.height/2,scale:r.width/event.currentTarget.offsetWidth||1,moved:false};
+  ignoreClick.current=false;event.currentTarget.setPointerCapture(event.pointerId);setDragging(true);
+ }
+ function move(event:PointerEvent<HTMLButtonElement>){const start=gesture.current;if(!start||start.id!==event.pointerId)return;const x=event.clientX-start.x,y=event.clientY-start.y;start.moved||=Math.hypot(x,y)>3;setOffset({x:x/start.scale,y:y/start.scale});setOver(inside(start.cx+x,start.cy+y,start.halfWidth,start.halfHeight));}
+ function end(event:PointerEvent<HTMLButtonElement>,cancel=false){
+  const start=gesture.current;if(!start||start.id!==event.pointerId)return;
+  gesture.current=null;ignoreClick.current=start.moved||cancel;setDragging(false);setOffset({x:0,y:0});setOver(false);
+  if(cancel||!start.moved)return;
+  const hit=inside(start.cx+event.clientX-start.x,start.cy+event.clientY-start.y,start.halfWidth,start.halfHeight);
+  if(hit){if(phase==='ready')offer();}else if(phase!=='ready')reset();
+ }
  return <section id="poppy-ritual" className="poppy-ritual" aria-labelledby="poppy-ritual-title">
   <div className="poppy-heading"><div className="eyebrow">{t.eyebrow}</div><h2 id="poppy-ritual-title">{t.title}</h2><p>{t.intro}</p></div>
   <FullscreenView locale={locale} title={t.nav} kind="poppy">
   <div className="poppy-workspace" data-phase={phase}>
    <div className="poppy-offering"><p className="poppy-instruction" id="poppy-instruction">{t.instruction}</p>
-    <div className="poppy-drag-scene" dir="ltr" data-dragging={dragging}>
+    <div className="poppy-drag-scene" dir="ltr" data-dragging={dragging} data-filled={phase!=='ready'}>
      <div ref={drop} className="poppy-drop-target" data-over={over} data-filled={phase!=='ready'}><Poppy/><span>{phase==='ready'?t.drop:''}</span></div>
-     <button type="button" className="poppy-drag-flower" aria-label={t.offer} aria-describedby="poppy-instruction" disabled={phase!=='ready'} style={{transform:`translate(${offset.x}px,${offset.y}px)`}} onPointerDown={down} onPointerMove={move} onPointerUp={event=>end(event)} onPointerCancel={event=>end(event,true)} onLostPointerCapture={event=>{if(gesture.current)end(event,true);}} onTouchStart={event=>event.stopPropagation()} onClick={()=>{if(ignoreClick.current){ignoreClick.current=false;return;}offer();}} onKeyDown={event=>{if(event.key==='Escape'&&gesture.current){gesture.current=null;ignoreClick.current=true;setDragging(false);setOffset({x:0,y:0});setOver(false);}}}><Poppy/></button>
+     <button type="button" className="poppy-drag-flower" aria-label={phase==='ready'?t.offer:t.withdraw} aria-describedby="poppy-instruction" style={{transform:`translate(${offset.x}px,${offset.y}px)`}} onPointerDown={down} onPointerMove={move} onPointerUp={event=>end(event)} onPointerCancel={event=>end(event,true)} onLostPointerCapture={event=>{if(gesture.current)end(event,true);}} onTouchStart={event=>event.stopPropagation()} onClick={()=>{if(ignoreClick.current){ignoreClick.current=false;return;}if(phase==='ready')offer();else reset();}} onKeyDown={event=>{if(event.key==='Escape'&&gesture.current){gesture.current=null;ignoreClick.current=true;setDragging(false);setOffset({x:0,y:0});setOver(false);}}}><Poppy/></button>
     </div>
    </div>
-   <div className="poppy-remembrance"><PoppyField phase={phase} label={t.field} onColumns={onColumns}/></div><div className="poppy-field-footer"><div className="poppy-count" aria-hidden="true"><strong>{count.toLocaleString(numberLocales[locale])}<span> / {total.toLocaleString(numberLocales[locale])}</span></strong><small>{t.count}</small></div><p className="poppy-status" role="status">{phase==='complete'?t.complete:phase==='lighting'?t.lighting:'\u00a0'}</p><button className="poppy-replay" type="button" disabled={phase!=='complete'} onClick={()=>{setPhase('ready');setCount(0);ignoreClick.current=false;}}><RotateCcw size={15}/>{t.again}</button></div>
+   <div className="poppy-remembrance"><PoppyField phase={phase} label={t.field} onColumns={onColumns}/></div><div className="poppy-field-footer"><div className="poppy-count" aria-hidden="true"><strong>{count.toLocaleString(numberLocales[locale])}<span> / {total.toLocaleString(numberLocales[locale])}</span></strong><small>{t.count}</small></div><p className="poppy-status" role="status">{phase==='complete'?t.complete:phase==='lighting'?t.lighting:'\u00a0'}</p><p className="poppy-reset-note" aria-hidden="true">{phase==='complete'?t.resetIn.replace('{seconds}',remaining.toLocaleString(numberLocales[locale])):'\u00a0'}</p></div>
   </div>
   </FullscreenView>
  </section>;

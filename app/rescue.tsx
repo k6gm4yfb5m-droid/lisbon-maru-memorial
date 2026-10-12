@@ -1,11 +1,12 @@
 "use client";
 import { useEffect, useId, useRef, useState, type KeyboardEvent } from "react";
 import { geoMercator } from "d3-geo";
-import { Users, Ship, Repeat2, LifeBuoy, RotateCcw, Globe2 } from "lucide-react";
+import useEmblaCarousel from "embla-carousel-react";
+import { Users, Ship, Repeat2, LifeBuoy, RotateCcw, Globe2, ChevronLeft, ChevronRight } from "lucide-react";
 import FullscreenView from "./fullscreen-view";
 import { Button } from "@/components/ui/button";
 import { formatNumber, type Locale } from "@/lib/i18n";
-import { rescueMetrics, rescuePlaces, rescueTranslations, rescueSources, type RescueMetricId, type RescuePlaceId } from "@/lib/rescue";
+import { rescueMetrics, rescuePlaces, rescueTranslations, rescueCarouselTranslations, rescueSources, type RescueMetricId, type RescuePlaceId } from "@/lib/rescue";
 import islandCoastlines from "@/lib/rescue-islands.json";
 import { geographySources } from "@/lib/geography";
 import RescueGlobe, { type RescueEntry } from "./rescue-globe";
@@ -42,8 +43,10 @@ function RescueDotChart({count,color,label,run}:{count:number;color:string;label
   </svg>;
 }
 export default function FishermenRescue({locale}:{locale:Locale}){
-  const t=rescueTranslations[locale],uid=useId().replace(/[^a-zA-Z0-9_-]/g,"");
+  const t=rescueTranslations[locale],carouselText=rescueCarouselTranslations[locale],uid=useId().replace(/[^a-zA-Z0-9_-]/g,"");
   const [metric,setMetric]=useState<RescueMetricId|null>(null),[place,setPlace]=useState<RescuePlaceId|null>(null);
+  const [carouselRef,carouselApi]=useEmblaCarousel({align:"center",loop:true,direction:"ltr"});
+  const [activeMetric,setActiveMetric]=useState(0);
   const [metricRuns,setMetricRuns]=useState<Record<RescueMetricId,number>>({fishermen:0,boats:0,sorties:0,rescued:0});
   const [mapOpen,setMapOpen]=useState(false),[globeVisible,setGlobeVisible]=useState(true),[autoEnter,setAutoEnter]=useState(true),[entryTarget,setEntryTarget]=useState<RescueEntry|null>(null);
   const mapScroll=useRef<HTMLDivElement>(null);
@@ -55,7 +58,18 @@ export default function FishermenRescue({locale}:{locale:Locale}){
     const x=point[0]*svg.clientWidth/720;
     scroll.scrollTo({left:Math.max(0,x-scroll.clientWidth/2),behavior:matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth"});
   },[place,mapOpen]);
-  const toggleMetric=(id:RescueMetricId)=>{setMetric(current=>current===id ? null : id);setMetricRuns(current=>({...current,[id]:current[id]+1}));};
+  useEffect(()=>{
+    if(!carouselApi)return;
+    const select=()=>{const index=carouselApi.selectedScrollSnap(),id=rescueMetrics[index].id;setActiveMetric(index);setMetric(id);setMetricRuns(current=>({...current,[id]:current[id]+1}));};
+    select();carouselApi.on("select",select);
+    return()=>{carouselApi.off("select",select);};
+  },[carouselApi]);
+  const toggleMetric=(id:RescueMetricId)=>{
+    const index=rescueMetrics.findIndex(item=>item.id===id);
+    if(carouselApi&&index!==activeMetric){carouselApi.scrollTo(index,matchMedia("(prefers-reduced-motion: reduce)").matches);return;}
+    setMetric(current=>current===id?null:id);setMetricRuns(current=>({...current,[id]:current[id]+1}));
+  };
+  const turnMetric=(direction:number)=>{if(!carouselApi)return;const jump=matchMedia("(prefers-reduced-motion: reduce)").matches;if(direction<0)carouselApi.scrollPrev(jump);else carouselApi.scrollNext(jump);};
   const togglePlace=(id:RescuePlaceId)=>{if(!mapOpen)setEntryTarget(id);else setPlace(current=>current===id ? null : id);};
   function revealMap(target:RescueEntry){
     const selected=target==="overview" ? null : target;
@@ -76,16 +90,20 @@ export default function FishermenRescue({locale}:{locale:Locale}){
   const routeSelected=(id:RescuePlaceId)=>place===null || place==="wreck" || place===id;
   return <section id="fishermen-rescue" className="rescue-section" aria-labelledby="rescue-title" onKeyDown={e=>{if(e.key==="Escape"){setMetric(null);setPlace(null);}}}>
     <div className="rescue-heading"><div className="eyebrow">{t.eyebrow}</div><h2 id="rescue-title">{t.title}</h2><p>{t.intro}</p></div>
-    <div className="rescue-chart-heading"><h3>{t.chartTitle}</h3><p>{t.chartHint}</p></div>
-    <div className="rescue-charts">{rescueMetrics.map(item=>{
+    <div className="rescue-chart-heading"><h3>{t.chartTitle}</h3><p>{carouselText.hint}</p></div>
+    <div className="rescue-carousel" role="region" aria-label={t.chartTitle} aria-roledescription={carouselText.carousel} onKeyDown={event=>{if(event.key==="ArrowLeft"||event.key==="ArrowRight"){event.preventDefault();event.stopPropagation();turnMetric(event.key==="ArrowLeft"?-1:1);}}}>
+    <div className="rescue-carousel-viewport" ref={carouselRef} dir="ltr" onTouchStart={event=>event.stopPropagation()}>
+    <div className="rescue-charts">{rescueMetrics.map((item,index)=>{
       const Icon=metricIcons[item.id];
-      return <figure key={item.id} className="rescue-chart" data-metric={item.id} data-emphasis={!metric ? "default" : metric===item.id ? "selected" : "muted"}>
-        <button type="button" className="rescue-chart-button" aria-label={`${t.metricLabels[item.id]} · ${formatNumber(item.count,locale)}`} aria-pressed={metric===item.id} onClick={()=>toggleMetric(item.id)}>
+      return <figure key={item.id} className="rescue-chart" data-active={activeMetric===index} data-metric={item.id} data-emphasis={!metric ? "default" : metric===item.id ? "selected" : "muted"}>
+        <button type="button" className="rescue-chart-button" aria-label={`${t.metricLabels[item.id]} · ${formatNumber(item.count,locale)}`} aria-pressed={metric===item.id} tabIndex={activeMetric===index?0:-1} onClick={()=>toggleMetric(item.id)}>
           <div className="rescue-chart-value"><Icon size={24} strokeWidth={1.2} aria-hidden="true"/><strong>{formatNumber(item.count,locale)}</strong></div><h4>{t.metricLabels[item.id]}</h4>
           <RescueDotChart count={item.count} color={item.color} run={metricRuns[item.id]} label={`${t.metricLabels[item.id]} · ${formatNumber(item.count,locale)} · ${t.dotKeys[item.id]}`}/><span className="rescue-dot-key">{t.dotKeys[item.id]}</span>
         </button>
       </figure>;
-    })}</div>
+    })}</div></div>
+    <div className="rescue-carousel-controls" dir="ltr"><button type="button" onClick={()=>turnMetric(-1)} aria-label={carouselText.previous}><ChevronLeft size={20}/></button><span aria-live="polite">{formatNumber(activeMetric+1,locale)} / {formatNumber(rescueMetrics.length,locale)} · {t.metricLabels[rescueMetrics[activeMetric].id]}</span><button type="button" onClick={()=>turnMetric(1)} aria-label={carouselText.next}><ChevronRight size={20}/></button></div>
+    </div>
     <div className="rescue-stat-legend" role="group" aria-label={t.chartTitle}>{rescueMetrics.map(item=><Button key={item.id} variant="ghost" data-metric={item.id} aria-pressed={metric===item.id} onClick={()=>toggleMetric(item.id)}><i style={{background:item.color}} aria-hidden="true"/>{t.metricLabels[item.id]}</Button>)}</div>
     <div className="rescue-stat-detail" role="status"><p>{metric ? t.metricBodies[metric] : t.overview}</p></div><p className="rescue-chart-note">{t.chartNote}</p>
     <div className="rescue-map-heading"><div><h3>{t.mapTitle}</h3><p>{t.mapRegion}</p></div><p>{mapOpen ? t.mapHint : t.globeHint}</p></div>
