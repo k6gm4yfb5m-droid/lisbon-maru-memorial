@@ -255,7 +255,6 @@ html[dir=rtl] .rescue-carousel .rescue-chart-button{direction:rtl}
 .fate-chart .donut-exact{margin:6px 0 18px;line-height:1.7}
 
 
-/* Only the cover moves like the sea; use its existing blue palette. */
-.intro::before{content:"";position:absolute;inset:-7%;z-index:0;pointer-events:none;background:radial-gradient(ellipse at 75% 42%,#2c485e 0%,#182e44 44%,#122537 85%);animation:cover-sea-swell 16s ease-in-out infinite;will-change:transform}
-@keyframes cover-sea-swell{0%,100%{transform:translate(-1%,1%) scale(1.02)}50%{transform:translate(1.2%,-1.4%) scale(1.045)}}
-@media(prefers-reduced-motion:reduce){.intro::before{animation:none;will-change:auto}}
+/* Pointer-driven water is confined to the cover and is transparent at rest. */
+.cover-water{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;user-select:none}
+@media(prefers-reduced-motion:reduce){.cover-water{display:none}}
