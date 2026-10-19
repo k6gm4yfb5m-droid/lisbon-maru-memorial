@@ -431,7 +431,7 @@ html[data-section-pages=true] #memorial-main>.intro[data-section-page]{min-heigh
 html[data-section-pages=true] #memorial-main>.background-section,html[data-section-pages=true] #memorial-main>.history-section,html[data-section-pages=true] #memorial-main>.source-section{align-content:center;align-items:center}
 .section-pagination{position:fixed;z-index:35;right:12px;top:50%;transform:translateY(-50%);width:34px;display:flex;align-items:center;flex-direction:column;gap:5px;color:#8e734d;direction:ltr}
 .section-page-arrow{width:34px;height:34px;display:flex;align-items:center;justify-content:center;border:1px solid #a886543b;background:#f3f3eedb;color:#8e734d;border-radius:50%;backdrop-filter:blur(7px);transition:background .25s,opacity .25s}
-.section-page-arrow:hover:not(:disabled){background:#e4d8c4}.section-page-arrow:disabled{opacity:.25}
+.section-page-arrow:hover:not([aria-disabled=true]){background:#e4d8c4}.section-page-arrow[aria-disabled=true]{opacity:.25;cursor:default}
 .section-page-dots{display:flex;flex-direction:column;align-items:center;gap:0}
 .section-page-dot{position:relative;width:30px;height:18px;display:flex;align-items:center;justify-content:center;background:none;border:0;padding:0}
 .section-page-dot>i{width:4px;height:4px;border-radius:50%;background:#a88654;opacity:.4;transition:transform .32s cubic-bezier(.22,.61,.36,1),opacity .32s,box-shadow .32s}
@@ -464,7 +464,10 @@ html[data-section-pages=true] .topology-section .fullscreen-view[data-fullscreen
 }
 @media(min-width:701px){html[data-section-pages=true] .historical-chart .donut-label{padding:0 12%}html[data-section-pages=true] .historical-chart .donut-label strong{font-size:clamp(28px,calc(var(--page-chart-size,260px)/4.7),66px)}html[data-section-pages=true] .historical-chart .donut-label span{font-size:12px;line-height:1.4}}
 /* Native anchor smoothing must not compete with the page-turn animation. */
-html[data-section-pages=true]{scroll-behavior:auto;scroll-padding-top:0}
+html[data-section-pages=true]{scroll-behavior:smooth;scroll-padding-top:0}
+@media(prefers-reduced-motion:reduce){html[data-section-pages=true]{scroll-behavior:auto}}
+.section-pagination a{cursor:pointer;touch-action:manipulation}
+.section-pagination a>svg,.section-page-dot>i{pointer-events:none}
 @media(max-width:700px){html[data-section-pages=true] .topology-section .fullscreen-view[data-fullscreen=false] .topology-svg{min-width:1152px;height:auto}}
 @media(min-width:701px){html[data-section-pages=true] .topology-section .fullscreen-view[data-fullscreen=false] .topology-scroll-hint{display:none}}
 @media(min-width:701px){html[data-section-pages=true] .historical-chart .waffle-svg,html[data-section-pages=true] .historical-chart .donut-wrap{margin:10px auto}}

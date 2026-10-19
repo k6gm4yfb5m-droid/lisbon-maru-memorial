@@ -19,8 +19,8 @@ type MeasuredPage = Page & {element:HTMLElement;start:number;end:number};
 /** Keep document scrolling, sticky scenes and existing reading interactions intact. */
 export default function SectionPages({locale}:{locale:Locale}) {
   const [pages,setPages]=useState<Page[]>([]),[current,setCurrent]=useState(0);
-  const refresh=useRef<()=>void>(()=>{}),navigate=useRef<(index:number)=>void>(()=>{});
-  const buttons=useRef<(HTMLButtonElement|null)[]>([]),turn=useRef<(sign:number)=>void>(()=>{});
+  const refresh=useRef<()=>void>(()=>{});
+  const buttons=useRef<(HTMLAnchorElement|null)[]>([]);
   const t=labels[locale];
   useEffect(()=>{
     const main=document.getElementById("memorial-main"),header=document.querySelector<HTMLElement>(".site-header");
@@ -173,8 +173,9 @@ export default function SectionPages({locale}:{locale:Locale}) {
       const finish=()=>{
         cancelAnimationFrame(animationFrame);animationFrame=0;finishTurn=null;
         paging=false;delete root.dataset.sectionTurning;
-        // A user interruption must never be followed by a delayed snap back.
-        if(Math.abs(scrollY-target)>8)arrival=null;
+        // Input interruptions call stop() and cancel this watcher. If the browser
+        // stalls without an interruption, complete the requested navigation.
+        if(Math.abs(scrollY-target)>8)window.scrollTo({top:target,behavior:"instant"});
         update();if(measureDeferred)scheduleMeasure();
       };
       finishTurn=()=>{if(Math.abs(scrollY-target)<.5)finish();};
@@ -188,9 +189,6 @@ export default function SectionPages({locale}:{locale:Locale}) {
       };
       animationFrame=requestAnimationFrame(watch);
     }
-    navigate.current=index=>go(index);
-    // The numbered arrows always change sections; normal scrolling reads long sections.
-    turn.current=sign=>go(active+sign);
     refresh.current=scheduleMeasure;
     function boundary(index:number,sign:number){
       const page=measured[index];if(!page)return false;
@@ -310,12 +308,13 @@ export default function SectionPages({locale}:{locale:Locale}) {
   useEffect(()=>{refresh.current();},[locale]);
   if(!pages.length)return null;
   const count=new Intl.NumberFormat(numberLocales[locale],{minimumIntegerDigits:2});
+  // Real fragment links remain usable even if a client-side handler cannot run.
   return <nav className="section-pagination" aria-label={t.nav} data-current-page={pages[current]?.id}>
-    <button type="button" className="section-page-arrow" aria-label={t.previous} title={t.previous} disabled={current===0} onClick={()=>turn.current(-1)}><ChevronUp size={16}/></button>
-    <div className="section-page-dots" onKeyDown={event=>{const focused=buttons.current.findIndex(button=>button===document.activeElement),base=focused<0?current:focused;let index=base;if(event.key==="ArrowDown")index=Math.min(pages.length-1,base+1);else if(event.key==="ArrowUp")index=Math.max(0,base-1);else if(event.key==="Home")index=0;else if(event.key==="End")index=pages.length-1;else return;event.preventDefault();navigate.current(index);buttons.current[index]?.focus({preventScroll:true});}}>
-      {pages.map((page,index)=><button ref={button=>{buttons.current[index]=button;}} type="button" key={page.id} className="section-page-dot" aria-label={`${count.format(index+1)} · ${page.title}`} aria-current={current===index?"step":undefined} onClick={()=>navigate.current(index)}><i aria-hidden="true"/><span className="section-page-title" dir={locale==="ar"?"rtl":"ltr"} aria-hidden="true">{page.title}</span></button>)}
+    <a className="section-page-arrow" href={current>0?`#${pages[current-1].id}`:undefined} aria-label={t.previous} title={t.previous} aria-disabled={current===0} tabIndex={current===0?-1:0}><ChevronUp size={16}/></a>
+    <div className="section-page-dots" onKeyDown={event=>{const focused=buttons.current.findIndex(button=>button===document.activeElement),base=focused<0?current:focused;let index=base;if(event.key==="ArrowDown")index=Math.min(pages.length-1,base+1);else if(event.key==="ArrowUp")index=Math.max(0,base-1);else if(event.key==="Home")index=0;else if(event.key==="End")index=pages.length-1;else return;event.preventDefault();buttons.current[index]?.click();buttons.current[index]?.focus({preventScroll:true});}}>
+      {pages.map((page,index)=><a ref={button=>{buttons.current[index]=button;}} href={`#${page.id}`} key={page.id} className="section-page-dot" aria-label={`${count.format(index+1)} · ${page.title}`} aria-current={current===index?"step":undefined}><i aria-hidden="true"/><span className="section-page-title" dir={locale==="ar"?"rtl":"ltr"} aria-hidden="true">{page.title}</span></a>)}
     </div>
     <span className="section-page-count" dir="ltr" aria-label={`${t.current}: ${pages[current]?.title}`}>{count.format(current+1)} / {count.format(pages.length)}</span>
-    <button type="button" className="section-page-arrow" aria-label={t.next} title={t.next} disabled={current===pages.length-1} onClick={()=>turn.current(1)}><ChevronDown size={16}/></button>
+    <a className="section-page-arrow" href={current<pages.length-1?`#${pages[current+1].id}`:undefined} aria-label={t.next} title={t.next} aria-disabled={current===pages.length-1} tabIndex={current===pages.length-1?-1:0}><ChevronDown size={16}/></a>
   </nav>;
 }
