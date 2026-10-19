@@ -32,28 +32,24 @@ export default function SectionPages({locale}:{locale:Locale}) {
     let wheelJourney:{from:number;to:number}|null=null;
     let arrival:{index:number;end:boolean;until:number}|null=null;
     let touch:{x:number;y:number;index:number;from:number;forward:boolean;backward:boolean;ignored:boolean;locked:boolean}|null=null;
-    let headingMotion:Animation|null=null;
+    let finishTurn:(()=>void)|null=null,measureDeferred=false;
     const reduced=matchMedia("(prefers-reduced-motion: reduce)");
     const viewport=()=>({top:window.visualViewport?.offsetTop??0,height:window.visualViewport?.height??innerHeight});
     const suspended=()=>document.body.style.overflow==="hidden" || !!document.querySelector('.fullscreen-view[data-fullscreen="true"],[data-slot="sheet-overlay"][data-state="open"]') || ((window.visualViewport?.scale??1)>1.001 && !matchMedia("(hover:hover) and (pointer:fine)").matches);
-    function pulse(index:number){
-      if(reduced.matches)return;
-      const heading=measured[index]?.element.querySelector<HTMLElement>('h1,h2');
-      headingMotion?.cancel();
-      headingMotion=heading?.animate([{opacity:.7,transform:"translateY(12px)"},{opacity:1,transform:"translateY(0)"}],{duration:480,easing:"cubic-bezier(.22,.61,.36,1)"})??null;
-    }
     function update(){
       scrollFrame=0;
       const v=viewport(),line=scrollY+v.top+v.height*.24;
       let next=0;
       measured.forEach((page,index)=>{if(page.start<=line)next=index;});
-      if(next!==active){active=next;setCurrent(next);pulse(next);
+      if(next!==active){active=next;setCurrent(next);
         header!.querySelectorAll<HTMLAnchorElement>("nav a").forEach(link=>{const selected=link.hash===`#${measured[next]?.id}`;link.classList.toggle("nav-active",selected);if(selected)link.setAttribute("aria-current","location");else link.removeAttribute("aria-current");});
       }
     }
     function schedule(){if(!scrollFrame)scrollFrame=requestAnimationFrame(update);}
     function measure(){
       measureFrame=0;
+      if(paging){measureDeferred=true;return;}
+      measureDeferred=false;
       const fit=parseFloat(getComputedStyle(document.body).zoom)||1;
       const v=viewport(),touchZoom=(window.visualViewport?.scale??1)>1.001 && !matchMedia("(hover:hover) and (pointer:fine)").matches;
       const height=(touchZoom?innerHeight:v.height)/fit;
@@ -151,7 +147,12 @@ export default function SectionPages({locale}:{locale:Locale}) {
       update();
     }
     function scheduleMeasure(){if(!measureFrame)measureFrame=requestAnimationFrame(measure);}
-    function stop(){cancelAnimationFrame(animationFrame);animationFrame=0;paging=false;delete root.dataset.sectionTurning;}
+    function stop(){
+      cancelAnimationFrame(animationFrame);animationFrame=0;finishTurn=null;
+      if(paging)window.scrollTo({top:scrollY,behavior:"instant"});
+      paging=false;delete root.dataset.sectionTurning;
+    }
+    function scrollEnd(){finishTurn?.();}
     function go(index:number,end=false,historyMode:"replace"|"push"|"none"="replace",readingTarget?:number){
       if(suspended())return;
       const page=measured[index];if(!page)return;
@@ -166,27 +167,26 @@ export default function SectionPages({locale}:{locale:Locale}) {
         if(historyMode==="push" && location.hash!==url.hash)history.pushState(null,"",url);else history.replaceState(null,"",url);
       }
       // Far-away chapter links arrive directly; adjacent pages gently accelerate and settle.
-      if(reduced.matches || Math.abs(target-from)>v.height*2.5 || Math.abs(target-from)<1){window.scrollTo({top:target,behavior:"instant"});update();pulse(index);return;}
+      if(reduced.matches || Math.abs(target-from)>v.height*2.5 || Math.abs(target-from)<1){window.scrollTo({top:target,behavior:"instant"});update();return;}
       paging=true;root.dataset.sectionTurning="true";
-      window.scrollTo({top:from,behavior:"instant"});
-      const start=performance.now(),duration=Math.min(500,Math.max(280,Math.abs(target-from)/v.height*440));
-      const tick=(now:number)=>{
-        const progress=Math.min(1,(now-start)/duration),ease=progress*progress*(3-2*progress);
-        window.scrollTo({top:from+(target-from)*ease,behavior:"instant"});
-        if(progress<1)animationFrame=requestAnimationFrame(tick);else{
-          stop();
-          if(readingTarget===undefined){
-            const bounds=page.element.getBoundingClientRect(),visible=viewport();
-            // The first reading page includes the header: its start is the document top,
-            // not the hero's top. Keep the final alignment consistent with the destination.
-            page.start=index===0?0:scrollY+bounds.top;
-            page.end=scrollY+bounds.bottom;
-            window.scrollTo({top:Math.max(0,(end?Math.max(page.start,page.end-visible.height):page.start)-visible.top),behavior:"instant"});
-          }
-          update();
-        }
+      const started=performance.now();let lastPosition=from,stillFrames=0;
+      const finish=()=>{
+        cancelAnimationFrame(animationFrame);animationFrame=0;finishTurn=null;
+        paging=false;delete root.dataset.sectionTurning;
+        // A user interruption must never be followed by a delayed snap back.
+        if(Math.abs(scrollY-target)>8)arrival=null;
+        update();if(measureDeferred)scheduleMeasure();
       };
-      animationFrame=requestAnimationFrame(tick);
+      finishTurn=()=>{if(Math.abs(scrollY-target)<.5)finish();};
+      // Let the browser animate scrolling without a script writing position every frame.
+      window.scrollTo({top:target,behavior:"smooth"});
+      const watch=(now:number)=>{
+        const position=scrollY;
+        stillFrames=Math.abs(position-lastPosition)<.5?stillFrames+1:0;lastPosition=position;
+        if(now-started>80 && (Math.abs(position-target)<.5 || stillFrames>=5 || now-started>1800)){finish();return;}
+        animationFrame=requestAnimationFrame(watch);
+      };
+      animationFrame=requestAnimationFrame(watch);
     }
     navigate.current=index=>go(index);
     turn.current=sign=>{
@@ -302,14 +302,14 @@ export default function SectionPages({locale}:{locale:Locale}) {
     measure();
     const initialHash=location.hash;
     const initialFrame=requestAnimationFrame(()=>{if(initialHash && !suspended())historyChange();});
-    window.addEventListener("scroll",onScroll,{passive:true});window.addEventListener("wheel",wheel,{passive:false});
+    document.addEventListener("scrollend",scrollEnd);window.addEventListener("scroll",onScroll,{passive:true});window.addEventListener("wheel",wheel,{passive:false});
     window.addEventListener("resize",scheduleMeasure);window.visualViewport?.addEventListener("resize",scheduleMeasure);window.visualViewport?.addEventListener("scroll",viewportScroll);
     window.addEventListener("touchstart",touchStart,{passive:true});window.addEventListener("touchmove",touchMove,{passive:false});window.addEventListener("touchend",touchEnd,{passive:true});window.addEventListener("touchcancel",touchCancel,{passive:true});
     window.addEventListener("pointerdown",pointerDown,{passive:true});window.addEventListener("pointerup",pointerUp,{passive:true});window.addEventListener("pointercancel",pointerUp,{passive:true});
     document.addEventListener("click",click);window.addEventListener("hashchange",historyChange);window.addEventListener("popstate",historyChange);
     return()=>{
-      stop();headingMotion?.cancel();resize.disconnect();cancelAnimationFrame(initialFrame);cancelAnimationFrame(scrollFrame);cancelAnimationFrame(measureFrame);clearTimeout(settleTimer);
-      window.removeEventListener("scroll",onScroll);window.removeEventListener("wheel",wheel);window.removeEventListener("resize",scheduleMeasure);window.visualViewport?.removeEventListener("resize",scheduleMeasure);window.visualViewport?.removeEventListener("scroll",viewportScroll);
+      stop();resize.disconnect();cancelAnimationFrame(initialFrame);cancelAnimationFrame(scrollFrame);cancelAnimationFrame(measureFrame);clearTimeout(settleTimer);
+      document.removeEventListener("scrollend",scrollEnd);window.removeEventListener("scroll",onScroll);window.removeEventListener("wheel",wheel);window.removeEventListener("resize",scheduleMeasure);window.visualViewport?.removeEventListener("resize",scheduleMeasure);window.visualViewport?.removeEventListener("scroll",viewportScroll);
       window.removeEventListener("touchstart",touchStart);window.removeEventListener("touchmove",touchMove);window.removeEventListener("touchend",touchEnd);window.removeEventListener("touchcancel",touchCancel);window.removeEventListener("pointerdown",pointerDown);window.removeEventListener("pointerup",pointerUp);window.removeEventListener("pointercancel",pointerUp);
       document.removeEventListener("click",click);window.removeEventListener("hashchange",historyChange);window.removeEventListener("popstate",historyChange);
       delete root.dataset.sectionPages;root.style.removeProperty("--section-page-height");root.style.removeProperty("--section-header-height");elements.forEach(element=>{delete element.dataset.sectionPage;['--page-poppy-height','--page-star-height','--page-chart-size','--page-topology-height','--page-topology-workspace-height','--page-holds-height','--page-voyage-height','--page-rescue-height','--page-timeline-height','--page-archive-height'].forEach(property=>element.style.removeProperty(property));});

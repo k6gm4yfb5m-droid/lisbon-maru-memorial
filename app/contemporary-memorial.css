@@ -261,7 +261,7 @@ html[dir=rtl] .rescue-carousel .rescue-chart-button{direction:rtl}
 
 /* Neutral paper grain and short fibres, painted behind the section contents. */
 #memorial-main>section:not(.intro){
- background-image:url("/images/paper-grain.svg?v=2"),
+ background-image:url("/images/paper-grain.png?v=3"),
   radial-gradient(ellipse at 8% 12%,rgba(64,83,99,.025),transparent 54%),
   linear-gradient(105deg,rgba(255,255,255,.32),rgba(255,255,255,.14) 55%,rgba(64,83,99,.015));
  background-size:240px 240px,100% 100%,100% 100%;
