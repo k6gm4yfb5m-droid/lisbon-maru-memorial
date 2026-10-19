@@ -242,8 +242,8 @@ html[dir=rtl] .ritual-light{inset:0 35% 0 0}
 /* Only the selected card reveals its animated dots; hidden charts keep their layout space. */
 .rescue-carousel .rescue-chart[data-active=false] .rescue-dot-chart{visibility:hidden}
 .rescue-carousel-controls{display:flex;justify-content:center;align-items:center;gap:18px;margin-top:8px}
-.rescue-carousel-controls>button{width:44px;height:44px;flex:none;display:grid;place-items:center;border:1px solid #c5d3dd;border-radius:50%;background:#f6f9fb;color:#28464d;cursor:pointer}
-.rescue-carousel-controls>button:hover{background:#dfe8ef;border-color:#9eafba}
+.rescue-carousel-arrow{width:44px;height:44px;flex:none;display:grid;place-items:center;border:1px solid #c5d3dd;border-radius:50%;background:#f6f9fb;color:#28464d;cursor:pointer}
+.rescue-carousel-arrow:hover{background:#dfe8ef;border-color:#9eafba}
 .rescue-carousel-controls>span{font-size:13px;color:#536b80;text-align:center;font-variant-numeric:tabular-nums;min-width:17em}
 .rescue-stat-detail{min-height:calc(5.7em + 32px)}
 html[dir=rtl] .rescue-carousel .rescue-chart-button{direction:rtl}
@@ -267,3 +267,11 @@ html[dir=rtl] .rescue-carousel .rescue-chart-button{direction:rtl}
  background-size:240px 240px,100% 100%,100% 100%;
  background-repeat:repeat,no-repeat,no-repeat;
 }
+
+/* Keep card paging visible beside the cards at every selection. */
+.rescue-carousel-stage{position:relative;min-width:0}
+.rescue-carousel-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:5;box-shadow:0 3px 14px #18333c10}
+.rescue-carousel-previous{left:12px}.rescue-carousel-next{right:12px}
+.rescue-carousel .rescue-chart-button{position:relative;user-select:none;-webkit-user-select:none}
+.rescue-card-drag-surface{position:absolute;inset:0;z-index:3;cursor:inherit}
+@media(max-width:700px){.rescue-carousel-arrow{width:40px;height:40px}.rescue-carousel-previous{left:-14px}.rescue-carousel-next{right:-14px}}

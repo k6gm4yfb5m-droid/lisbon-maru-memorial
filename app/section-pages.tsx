@@ -189,16 +189,8 @@ export default function SectionPages({locale}:{locale:Locale}) {
       animationFrame=requestAnimationFrame(watch);
     }
     navigate.current=index=>go(index);
-    turn.current=sign=>{
-      const index=inputPage(),page=measured[index];if(!page || suspended())return;
-      const v=viewport(),rect=page.element.getBoundingClientRect(),start=index===0?0:scrollY+rect.top-v.top,end=Math.max(start,scrollY+rect.bottom-v.top-v.height);
-      // A map is a reading stop of its own inside the longer rescue section.
-      const stops=Array.from(page.element.querySelectorAll<HTMLElement>('.rescue-map-heading,.rescue-care,.geography-story,.geography-place-list,.archive-reader')).map(element=>scrollY+element.getBoundingClientRect().top-v.top).filter(position=>position>start+4 && position<=end+4);
-      const nextStop=sign>0?stops.find(position=>position>scrollY+4):stops.reverse().find(position=>position<scrollY-4);
-      if(sign>0 && scrollY<end-4)go(index,false,"replace",Math.min(end,nextStop??Infinity,scrollY+v.height*.9));
-      else if(sign<0 && scrollY>start+4)go(index,false,"replace",Math.max(start,nextStop??-Infinity,scrollY-v.height*.9));
-      else go(index+sign,sign<0);
-    };
+    // The numbered arrows always change sections; normal scrolling reads long sections.
+    turn.current=sign=>go(active+sign);
     refresh.current=scheduleMeasure;
     function boundary(index:number,sign:number){
       const page=measured[index];if(!page)return false;

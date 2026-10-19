@@ -59,6 +59,7 @@ export default function FishermenRescue({locale}:{locale:Locale}){
   const [metric,setMetric]=useState<RescueMetricId|null>(null),[place,setPlace]=useState<RescuePlaceId|null>(null);
   const [carouselRef,carouselApi]=useEmblaCarousel({align:"center",loop:true,direction:"ltr",duration:28,skipSnaps:false});
   const [activeMetric,setActiveMetric]=useState(0);
+  const carouselWheel=useRef({last:0,total:0,sign:0,advanced:false});
   const [metricRuns,setMetricRuns]=useState<Record<RescueMetricId,number>>({fishermen:0,boats:0,sorties:0,rescued:0});
   const [mapOpen,setMapOpen]=useState(false),[globeVisible,setGlobeVisible]=useState(true),[autoEnter,setAutoEnter]=useState(true),[entryTarget,setEntryTarget]=useState<RescueEntry|null>(null);
   const mapScroll=useRef<HTMLDivElement>(null);
@@ -75,6 +76,22 @@ export default function FishermenRescue({locale}:{locale:Locale}){
     const select=()=>{const index=carouselApi.selectedScrollSnap(),id=rescueMetrics[index].id;setActiveMetric(index);setMetric(id);setMetricRuns(current=>({...current,[id]:current[id]+1}));};
     select();carouselApi.on("select",select);
     return()=>{carouselApi.off("select",select);};
+  },[carouselApi]);
+  useEffect(()=>{
+    if(!carouselApi)return;const viewport=carouselApi.rootNode();
+    const wheel=(event:WheelEvent)=>{
+      if(event.ctrlKey||Math.abs(event.deltaX)<1||Math.abs(event.deltaX)<=Math.abs(event.deltaY)*1.2)return;
+      event.preventDefault();event.stopPropagation();
+      const now=performance.now(),input=carouselWheel.current,sign=Math.sign(event.deltaX);
+      if(now-input.last>180||sign!==input.sign){input.total=0;input.advanced=false;}
+      input.last=now;input.sign=sign;if(input.advanced)return;
+      input.total+=event.deltaX*(event.deltaMode===1?16:event.deltaMode===2?viewport.clientWidth:1);
+      if(Math.abs(input.total)>=28){
+        input.advanced=true;const jump=matchMedia("(prefers-reduced-motion: reduce)").matches;
+        if(sign<0)carouselApi.scrollPrev(jump);else carouselApi.scrollNext(jump);
+      }
+    };
+    viewport.addEventListener("wheel",wheel,{passive:false});return()=>viewport.removeEventListener("wheel",wheel);
   },[carouselApi]);
   const toggleMetric=(id:RescueMetricId)=>{
     const index=rescueMetrics.findIndex(item=>item.id===id);
@@ -104,6 +121,7 @@ export default function FishermenRescue({locale}:{locale:Locale}){
     <div className="rescue-heading"><div className="eyebrow">{t.eyebrow}</div><h2 id="rescue-title">{t.title}</h2><p>{t.intro}</p></div>
     <div className="rescue-chart-heading"><h3>{t.chartTitle}</h3><p>{carouselText.hint}</p></div>
     <div className="rescue-carousel" role="region" aria-label={t.chartTitle} aria-roledescription={carouselText.carousel} onKeyDown={event=>{if(event.key==="ArrowLeft"||event.key==="ArrowRight"){event.preventDefault();event.stopPropagation();turnMetric(event.key==="ArrowLeft"?-1:1);}}}>
+    <div className="rescue-carousel-stage">
     <div className="rescue-carousel-viewport" ref={carouselRef} dir="ltr" onTouchStart={event=>event.stopPropagation()}>
     <div className="rescue-charts">{rescueMetrics.map((item,index)=>{
       const Icon=metricIcons[item.id];
@@ -111,10 +129,14 @@ export default function FishermenRescue({locale}:{locale:Locale}){
         <button type="button" className="rescue-chart-button" aria-label={`${t.metricLabels[item.id]} · ${formatNumber(item.count,locale)}`} aria-pressed={metric===item.id} tabIndex={activeMetric===index?0:-1} onClick={()=>toggleMetric(item.id)}>
           <div className="rescue-chart-value"><Icon size={24} strokeWidth={1.2} aria-hidden="true"/><strong>{formatNumber(item.count,locale)}</strong></div><h4>{t.metricLabels[item.id]}</h4>
           <RescueDotChart active={activeMetric===index} count={item.count} color={item.color} run={metricRuns[item.id]} label={`${t.metricLabels[item.id]} · ${formatNumber(item.count,locale)} · ${t.dotKeys[item.id]}`}/><span className="rescue-dot-key">{t.dotKeys[item.id]}</span>
+          <span className="rescue-card-drag-surface" aria-hidden="true"/>
         </button>
       </figure>;
     })}</div></div>
-    <div className="rescue-carousel-controls" dir="ltr"><button type="button" onClick={()=>turnMetric(-1)} aria-label={carouselText.previous}><ChevronLeft size={20}/></button><span aria-live="polite">{formatNumber(activeMetric+1,locale)} / {formatNumber(rescueMetrics.length,locale)} · {t.metricLabels[rescueMetrics[activeMetric].id]}</span><button type="button" onClick={()=>turnMetric(1)} aria-label={carouselText.next}><ChevronRight size={20}/></button></div>
+    <button type="button" className="rescue-carousel-arrow rescue-carousel-previous" onClick={()=>turnMetric(-1)} aria-label={carouselText.previous}><ChevronLeft size={22}/></button>
+    <button type="button" className="rescue-carousel-arrow rescue-carousel-next" onClick={()=>turnMetric(1)} aria-label={carouselText.next}><ChevronRight size={22}/></button>
+    </div>
+    <div className="rescue-carousel-controls" dir="ltr"><span aria-live="polite">{formatNumber(activeMetric+1,locale)} / {formatNumber(rescueMetrics.length,locale)} · {t.metricLabels[rescueMetrics[activeMetric].id]}</span></div>
     </div>
     <div className="rescue-stat-legend" role="group" aria-label={t.chartTitle}>{rescueMetrics.map(item=><Button key={item.id} variant="ghost" data-metric={item.id} aria-pressed={metric===item.id} onClick={()=>toggleMetric(item.id)}><i style={{background:item.color}} aria-hidden="true"/>{t.metricLabels[item.id]}</Button>)}</div>
     <div className="rescue-stat-detail" role="status"><p>{metric ? t.metricBodies[metric] : t.overview}</p></div><p className="rescue-chart-note">{t.chartNote}</p>
